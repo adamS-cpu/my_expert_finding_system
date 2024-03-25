@@ -23,11 +23,11 @@ const userForm = reactive({
 })
 
 const register = async (formEl: FormInstance |undefined)=> {
-  if(!formRef) return
+  if(!formEl) return
   await formEl?.validate(async (valid, fields)=>{
     subLoading.value = true
     if(valid){
-      subLoading.value = true
+      // subLoading.value = true
       const {data} = await registerApi(userForm)
       if (data.status===200) {
         ElMessage.success(data.message)
@@ -39,8 +39,8 @@ const register = async (formEl: FormInstance |undefined)=> {
       ElMessage.error("提交表单失败，你还有未填写的项！")
     }
   })
+  subLoading.value = false
 }
-
 
 </script>
 
@@ -65,7 +65,7 @@ const register = async (formEl: FormInstance |undefined)=> {
                 <el-form-item prop="username">
                   <el-input v-model="userForm.username" placeholder="请输入昵称">
                     <template #prefix>
-                      <el-icon><User /></el-icon>
+                      <el-icon><User/></el-icon>
                     </template>
                   </el-input>
                 </el-form-item>
@@ -73,7 +73,7 @@ const register = async (formEl: FormInstance |undefined)=> {
                 <el-form-item prop="phone">
                   <el-input v-model="userForm.phone" placeholder="请输入注册手机号">
                     <template #prefix>
-                      <el-icon><Iphone /></el-icon>
+                      <el-icon><Iphone/></el-icon>
                     </template>
                   </el-input>
                 </el-form-item>
@@ -87,7 +87,7 @@ const register = async (formEl: FormInstance |undefined)=> {
                 </el-form-item>
 
                 <el-form-item>
-                  <el-button :loading="subLoading" color="#6171af" @click="register" style="width: 100%;">
+                  <el-button :loading="subLoading" color="#6171af" @click="register(formRef)" style="width: 100%;">
                     立即注册
                   </el-button>
                 </el-form-item>

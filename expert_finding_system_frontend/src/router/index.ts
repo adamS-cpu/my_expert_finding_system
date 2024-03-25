@@ -10,13 +10,14 @@ import {useMemberStore} from "../store/modules/member";
 export const staticRouter = [
     {
         path: '/',
-        redirect: '/expert/index',
+        // redirect: '/expert/index',
+        redirect: '/index',
         meta: {title: '发现-首页'},
     },
     {
         path: '/expert',
         name: 'Expert',
-        redirect: '/expert/index',
+        redirect: '/index',
         isMenu: false,
         children: [
             {

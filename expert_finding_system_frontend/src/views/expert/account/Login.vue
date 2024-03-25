@@ -30,11 +30,11 @@ const router = useRouter()
 const userStore = useExpertStore()
 
 const login = async (formEl: FormInstance |undefined)=> {
+
   if(!formRef) return
   await formEl?.validate(async (valid, fields)=>{
     subLoading.value = true
     if(valid){
-      subLoading.value = true
       const {data} = await loginApi(userForm)
       if (data.status===200) {
         // 用户token
@@ -76,7 +76,7 @@ const login = async (formEl: FormInstance |undefined)=> {
         <div class ="login-bg">
           <div class="login-main">
             <div class="login-box">
-              <el-form :model="userForm">
+              <el-form ref="formRef" :rules="rules" :model="userForm">
                 <legend>
                   用户登录
                 </legend>
@@ -97,7 +97,8 @@ const login = async (formEl: FormInstance |undefined)=> {
                 </el-form-item>
 
                 <el-form-item>
-                  <el-button :loading="subLoading" color="#6171af" @click="login" style="width: 100%;">
+<!--                  <el-button :loading="subLoading" color="#6171af" @click="login" style="width: 100%;">-->
+                  <el-button :loading="subLoading" color="#6171af" @click="login(formRef)" style="width: 100%;">
                     登录
                   </el-button>
                 </el-form-item>

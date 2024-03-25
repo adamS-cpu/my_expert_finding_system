@@ -23,7 +23,7 @@ const userForm = reactive({
 })
 
 const register = async (formEl: FormInstance |undefined)=> {
-  if(!formEl) return
+  if(!formRef) return
   await formEl?.validate(async (valid, fields)=>{
     subLoading.value = true
     if(valid){

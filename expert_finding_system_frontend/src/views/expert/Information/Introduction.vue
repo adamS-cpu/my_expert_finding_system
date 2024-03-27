@@ -17,11 +17,6 @@ const user = ref({
 
 defineExpose({user});
 
-const sendMessage = () => {
-  // 发送消息的逻辑
-  console.log("发送消息给", user.value.name);
-};
-
 </script>
 
 <template>
@@ -30,9 +25,12 @@ const sendMessage = () => {
   <!--顶部结束-->
 
   <!--中间部分-->
+  <!--  头部个人信息展示部分-->
   <div class="box"> <MyIntroduction/> </div>
 
+  <!--    个人信息内容-->
   <div class="columns">
+
     <div class="column is-three-quarters">
 
     </div>

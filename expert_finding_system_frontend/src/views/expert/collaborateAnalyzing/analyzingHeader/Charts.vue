@@ -1,5 +1,10 @@
 <template>
-  <div id="main" style="width: 600px;height:400px;"></div>
+  <el-card>
+    <template #header>
+      研究兴趣分布对比
+    </template>
+    <div id="main" style="width: 600px;height:400px;"></div>
+  </el-card>
 </template>
 
 <script lang="ts" setup>
@@ -14,6 +19,7 @@ import {
 import { RadarChart, RadarSeriesOption } from 'echarts/charts';
 import { CanvasRenderer } from 'echarts/renderers';
 import { onMounted } from 'vue';
+import {Location} from "@element-plus/icons-vue";
 
 
 echarts.use([TitleComponent, LegendComponent, RadarChart, CanvasRenderer]);
@@ -27,7 +33,7 @@ onMounted(()=>{
 
   option = {
     title: {
-      text: 'Basic Radar Chart'
+      text: '研究兴趣分布'
     },
     legend: {
       data: ['我', '李四']

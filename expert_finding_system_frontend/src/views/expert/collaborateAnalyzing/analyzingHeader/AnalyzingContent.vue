@@ -7,7 +7,7 @@ import ResearchDynamic from "@/views/expert/collaborateAnalyzing/analyzingHeader
 import ResearchInterested from "@/views/expert/collaborateAnalyzing/analyzingHeader/ResearchInterested.vue";
 import Charts from "@/views/expert/collaborateAnalyzing/analyzingHeader/Charts.vue";
 import RelationSchema from "@/views/expert/collaborateAnalyzing/analyzingHeader/RelationSchema.vue";
-import { RelationshipType } from 'exceljs';
+// import { RelationshipType } from 'exceljs';
 
 </script>
 
@@ -18,6 +18,7 @@ import { RelationshipType } from 'exceljs';
         <el-icon><location/></el-icon> 研究内容分析
       </template>
       <ResearchInterested/>
+      <Charts/>
     </el-card>
 
     <el-card>
@@ -39,21 +40,13 @@ import { RelationshipType } from 'exceljs';
     <!-- 知识图谱 -->
     <el-card>
       <template #header>
-        <el-icon><location/></el-icon> 知识图谱
-      </template>
-      <Charts/>
-    </el-card>
-    <!-- 知识图谱 -->
-    <el-card>
-      <template #header>
-        <el-icon><location/></el-icon> 关系表
+        <el-icon><location/></el-icon> 网络关系
       </template>
       <RelationSchema/>
     </el-card>
   </section>
 
 </template>
-
 
 
 <style scoped>

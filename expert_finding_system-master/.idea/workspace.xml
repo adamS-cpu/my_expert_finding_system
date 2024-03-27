@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09a44c53-9256-4ca4-b0ff-27f171644eb1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/hzy/utils/HutoolJWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/hzy/utils/HutoolJWTUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/router/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +178,8 @@
       <workItem from="1711093554986" duration="13000" />
       <workItem from="1711195008952" duration="2033000" />
       <workItem from="1711347006999" duration="15000" />
-      <workItem from="1711347354951" duration="1901000" />
+      <workItem from="1711347354951" duration="3490000" />
+      <workItem from="1711540321241" duration="1509000" />
     </task>
     <servers />
   </component>

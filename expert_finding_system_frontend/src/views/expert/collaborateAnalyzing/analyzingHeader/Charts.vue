@@ -3,7 +3,7 @@
     <template #header>
       研究兴趣分布对比
     </template>
-    <div id="main" style="width: 600px;height:400px;"></div>
+    <div id="mainofRadar" style="width: 600px;height:400px;"></div>
   </el-card>
 </template>
 
@@ -27,7 +27,7 @@ type EChartsOption = echarts.ComposeOption<
   TitleComponentOption | LegendComponentOption | RadarSeriesOption
 >;
 onMounted(()=>{
-  var chartDom = document.getElementById('main')!;
+  var chartDom = document.getElementById('mainofRadar')!;
   var myChart = echarts.init(chartDom);
   var option: EChartsOption;
 

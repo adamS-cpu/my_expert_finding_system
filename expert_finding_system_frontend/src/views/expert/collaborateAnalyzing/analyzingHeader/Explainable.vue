@@ -99,6 +99,7 @@
       </div>
     </el-col>
   </el-row>
+  <div id="mainofPie" style="width: 600px;height:400px;"></div>
 </template>
 
 <script lang="ts" setup>
@@ -108,6 +109,72 @@ import {
   CaretTop,
   Warning,
 } from '@element-plus/icons-vue'
+import * as echarts from 'echarts/core';
+import {
+  TitleComponent,
+  TitleComponentOption,
+  PolarComponent,
+  PolarComponentOption,
+  TooltipComponent,
+  TooltipComponentOption
+} from 'echarts/components';
+import { BarChart, BarSeriesOption } from 'echarts/charts';
+import { CanvasRenderer } from 'echarts/renderers';
+import { onMounted } from 'vue';
+
+echarts.use([
+  TitleComponent,
+  PolarComponent,
+  TooltipComponent,
+  BarChart,
+  CanvasRenderer
+]);
+
+type EChartsOption = echarts.ComposeOption<
+  | TitleComponentOption
+  | PolarComponentOption
+  | TooltipComponentOption
+  | BarSeriesOption
+>;
+onMounted(()=>{
+  var chartDom = document.getElementById('mainofPie')!;
+  var myChart = echarts.init(chartDom);
+  var option: EChartsOption;
+
+  option = {
+    title: [
+      {
+        text: '可解释性分析'
+      }
+    ],
+    polar: {
+      radius: [40, '90%']
+    },
+    radiusAxis: {
+      max: 4
+    },
+    angleAxis: {
+      type: 'category',
+      data: ['研究兴趣相似性得分', '共同好友得分', '专业知识互补性得分'],
+      startAngle: 50
+    },
+    tooltip: {},
+    series: {
+      type: 'bar',
+      data: [0.89, 0.83, 0.73],
+      coordinateSystem: 'polar',
+      label: {
+        show: true,
+        position: 'middle', // or 'start', 'insideStart', 'end', 'insideEnd'
+        formatter: '{b}: {c}'
+      }
+    },
+    animation: false
+  };
+
+  option && myChart.setOption(option);
+
+  })
 </script>
 
 <style scoped>

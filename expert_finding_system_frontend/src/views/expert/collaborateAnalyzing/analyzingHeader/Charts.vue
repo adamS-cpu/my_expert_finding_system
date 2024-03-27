@@ -1,0 +1,112 @@
+<template>
+  <div id="main" style="width: 600px;height:400px;"></div>
+</template>
+
+<script lang="ts" setup>
+
+import * as echarts from 'echarts/core';
+import {
+  TitleComponent,
+  TitleComponentOption,
+  LegendComponent,
+  LegendComponentOption
+} from 'echarts/components';
+import { RadarChart, RadarSeriesOption } from 'echarts/charts';
+import { CanvasRenderer } from 'echarts/renderers';
+import { onMounted } from 'vue';
+
+
+echarts.use([TitleComponent, LegendComponent, RadarChart, CanvasRenderer]);
+type EChartsOption = echarts.ComposeOption<
+  TitleComponentOption | LegendComponentOption | RadarSeriesOption
+>;
+onMounted(()=>{
+  var chartDom = document.getElementById('main')!;
+  var myChart = echarts.init(chartDom);
+  var option: EChartsOption;
+
+  option = {
+    title: {
+      text: 'Basic Radar Chart'
+    },
+    legend: {
+      data: ['我', '李四']
+    },
+    radar: {
+      // shape: 'circle',
+      indicator: [
+        { name: 'Deep Learing', max: 6500 },
+        { name: 'Computer Vision', max: 16000 },
+        { name: 'NLP', max: 30000 },
+        { name: 'DM', max: 38000 },
+        { name: 'Machine Learning', max: 52000 }
+      ]
+    },
+    series: [
+      {
+        name: 'Budget vs spending',
+        type: 'radar',
+        data: [
+          {
+            value: [4200, 10000, 20000, 35000, 50000, 18000],
+            name: '我'
+          },
+          {
+            value: [5000, 14000, 28000, 26000, 42000, 21000],
+            name: '李四'
+          }
+        ]
+      }
+    ]
+  };
+
+  option && myChart.setOption(option);
+
+})
+</script>
+
+<style scoped>
+:global(h2#card-usage ~ .example .example-showcase) {
+  background-color: var(--el-fill-color) !important;
+}
+
+.el-statistic {
+  --el-statistic-content-font-size: 28px;
+}
+
+.statistic-card {
+  height: 100%;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: var(--el-bg-color-overlay);
+}
+
+.statistic-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--el-text-color-regular);
+  margin-top: 16px;
+}
+
+.statistic-footer .footer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statistic-footer .footer-item span:last-child {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.green {
+  color: var(--el-color-success);
+}
+.red {
+  color: var(--el-color-error);
+}
+</style>

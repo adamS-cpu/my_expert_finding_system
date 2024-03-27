@@ -27,22 +27,21 @@ import RelationSchema from "@/views/expert/collaborateAnalyzing/analyzingHeader/
       </template>
       <Explainable/>
     </el-card>
-<!--    <Network/>-->
 
+
+    <!-- 网络分析 -->
+    <el-card>
+      <template #header>
+        <el-icon><location/></el-icon> 网络关系
+      </template>
+      <RelationSchema/>
+    </el-card>
 
     <el-card>
       <template #header>
         <el-icon><location/></el-icon> 他最近的动态
       </template>
       <ResearchDynamic/>
-    </el-card>
-
-    <!-- 知识图谱 -->
-    <el-card>
-      <template #header>
-        <el-icon><location/></el-icon> 网络关系
-      </template>
-      <RelationSchema/>
     </el-card>
   </section>
 

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09a44c53-9256-4ca4-b0ff-27f171644eb1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/Introduction.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/Introduction.vue" afterDir="false" />
-    </list>
+    <list default="true" id="09a44c53-9256-4ca4-b0ff-27f171644eb1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

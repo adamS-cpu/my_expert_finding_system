@@ -35,9 +35,9 @@ defineExpose({user});
     <div class="column is-three-quarters">
       <!-- 导航区 -->
     <div class="navigate">
-      <RouterLink :to="{path:'/expert/myInfo/achievementExhibition'}" active-class="active">成果展示</RouterLink>
-      <RouterLink :to="{path:'/expert/myInfo/personalInfo'}" active-class="active">个人信息</RouterLink>
-      <RouterLink :to="{path:'/expert/myInfo/socialRelation'}" active-class="active">社交关系</RouterLink>
+      <el-card><RouterLink :to="{path:'/expert/myInfo/achievementExhibition'}" active-class="active">成果展示</RouterLink></el-card>
+      <el-card><RouterLink :to="{path:'/expert/myInfo/personalInfo'}" active-class="active">个人信息</RouterLink></el-card>
+      <el-card><RouterLink :to="{path:'/expert/myInfo/socialRelation'}" active-class="active">社交关系</RouterLink></el-card>
     </div>
     <!-- 展示区 -->
     <div class="main-content">
@@ -75,7 +75,6 @@ defineExpose({user});
     color: black;
     font-size: 18px;
     letter-spacing: 5px;
-    border: 1px solid #000;
   }
   .navigate a.active {
     color: skyblue;
@@ -87,7 +86,6 @@ defineExpose({user});
     margin: 0 auto;
     margin-top: 30px;
     width: 100%;
-    border: 1px solid;
     flex: 1;
     display: flex;
     flex-direction: column;

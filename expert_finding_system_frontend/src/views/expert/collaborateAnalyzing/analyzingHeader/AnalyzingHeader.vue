@@ -1,4 +1,9 @@
 <script setup lang="ts">
+import {useExpertStore} from "@/store/modules/expert";
+import {ref, reactive} from "vue/dist/vue";
+import {onMounted} from "vue";
+import {getUserInfoAPI} from "@/api/expert/account/account";
+
 
 </script>
 
@@ -9,13 +14,13 @@
       <img src= "@/assets/expert/image/example-user-icon.png" style="border: 1px solid lightgray; border-radius: 10px;" alt="user-icon" />
       <div class="userInfo">
         <div class="userName">
-          <h3>张三</h3>
+          <h3>Chi Wang</h3>
         </div>
         <div class="user-organization">
-          <i class="el-icon-school"> </i> 苏州大学
+          <i class="el-icon-school"> </i> Univ. Of Illinois At Urbana-Champaign, Urbana, IL, USA
         </div>
         <div class="userAbstract">
-          数据挖掘 &emsp; 推荐系统
+          social influence, social network, evolving networks, dynamic network analysis, machine learning
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@
     <template #header>
       研究兴趣分布对比
     </template>
-    <div id="mainofRadar" style="width: 600px;height:400px;"></div>
+    <div id="main" style="width: 600px;height:400px;"></div>
   </el-card>
 </template>
 
@@ -27,7 +27,7 @@ type EChartsOption = echarts.ComposeOption<
   TitleComponentOption | LegendComponentOption | RadarSeriesOption
 >;
 onMounted(()=>{
-  var chartDom = document.getElementById('mainofRadar')!;
+  var chartDom = document.getElementById('main')!;
   var myChart = echarts.init(chartDom);
   var option: EChartsOption;
 
@@ -36,16 +36,16 @@ onMounted(()=>{
       text: '研究兴趣分布'
     },
     legend: {
-      data: ['我', '李四']
+      data: ['我', 'Raghu Machiraju']
     },
     radar: {
       // shape: 'circle',
       indicator: [
-        { name: 'Deep Learing', max: 6500 },
-        { name: 'Computer Vision', max: 16000 },
-        { name: 'NLP', max: 30000 },
-        { name: 'DM', max: 38000 },
-        { name: 'Machine Learning', max: 52000 }
+        { name: 'social network', max: 6500 },
+        { name: 'dynamic network analysis', max: 16000 },
+        { name: 'computational biology', max: 30000 },
+        { name: 'cancer', max: 38000 },
+        { name: 'social influence', max: 52000 }
       ]
     },
     series: [
@@ -54,12 +54,12 @@ onMounted(()=>{
         type: 'radar',
         data: [
           {
-            value: [4200, 10000, 20000, 35000, 50000, 18000],
+            value: [4200, 10000, 8000, 28000, 42000, 18000],
             name: '我'
           },
           {
-            value: [5000, 14000, 28000, 26000, 42000, 21000],
-            name: '李四'
+            value: [3400, 6500, 28000, 26000, 15000, 21000],
+            name: 'Raghu Machiraju'
           }
         ]
       }

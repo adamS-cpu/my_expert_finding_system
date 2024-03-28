@@ -22,7 +22,7 @@
           <div class="footer-item">
             <span>最大的共同兴趣是</span>
             <span class="green">
-              网络分析
+              social network
               <el-icon>
                 <CaretTop />
               </el-icon>
@@ -51,9 +51,9 @@
         </el-statistic>
         <div class="statistic-footer">
           <div class="footer-item">
-            <span>可能因为钱九而互相认识</span>
+            <span>可能因为Tony Pan而互相认识</span>
             <span class="red">
-              钱九
+              Tony Pan
               <el-icon>
                 <CaretBottom />
               </el-icon>
@@ -84,7 +84,7 @@
           <div class="footer-item">
             <span>良好的合作背景知识</span>
             <span class="green">
-              聚类算法与蛋白质交互
+              computational biology and dynamic network analysis
               <el-icon>
                 <CaretTop />
               </el-icon>

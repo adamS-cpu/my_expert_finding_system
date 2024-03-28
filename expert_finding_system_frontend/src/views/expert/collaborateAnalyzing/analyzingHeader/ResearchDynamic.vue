@@ -43,16 +43,14 @@ onMounted(()=>{
                         <img src= "@/assets/expert/image/example-user-icon-small.png" style="border: 1px solid lightgray; border-radius: 10px;" alt="user-icon" />
                       </router-link>
                     </div>
+                    <div class="column is-four-fifths">
+                      <p style="font-size: 18px">Raghu Machiraju</p>
+                      <p style="font-size: 12px">Ohio State University, USA</p>
+                    </div>
+
                     <div class="column">
-                      <p style="font-size: 18px">李四</p>
-                      <p style="font-size: 12px">浙江大学</p>
                     </div>
-                    <div class="column is-one-fifth"/>
-                    <div class="column is-one-fifth"/>
-                    <div class="column is-one-fifth"/>
-                    <div class="column is-one-fifth">
-<!--                      <el-button type="primary">查看他的历史更新</el-button>-->
-                    </div>
+
 
                   </div>
                 </template>
@@ -62,8 +60,8 @@ onMounted(()=>{
                   </div>
                   <div class="column is is-three-fifths">
                     <p style="font-size: 18px">{{item.content}}</p>
-                    <p style="font-size: 12px">李四</p>
-                    <p style="font-size: 12px"> ACM Trans. Recomm. Syst.，{{item.field_name}}，{{item.create_time}}</p>
+                    <p style="font-size: 12px">{{item.user_name}}</p>
+                    <p style="font-size: 12px"> {{item.venue}}，{{item.field_name}}，{{item.create_time}}</p>
                   </div>
                   <div class="column is-one-quarter"/>
                 </div>

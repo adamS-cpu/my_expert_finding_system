@@ -8,6 +8,7 @@ import AnalyzingHeader from "@/views/expert/collaborateAnalyzing/analyzingHeader
 import AnalyzingContent from "@/views/expert/collaborateAnalyzing/analyzingHeader/AnalyzingContent.vue";
 import Recommendation from "@/views/expert/collaborateAnalyzing/analyzingRecommendation/Recommendation.vue";
 import MyIntroduction from "@/views/expert/Information/InformationHead/MyIntroduction.vue";
+import { RouterLink,RouterView } from "vue-router";
 
 const user = ref({
   avatar: "@/assets/expert/image/example-user-icon.png",
@@ -32,6 +33,16 @@ defineExpose({user});
   <div class="columns">
 
     <div class="column is-three-quarters">
+      <!-- 导航区 -->
+    <div class="navigate">
+      <RouterLink :to="{path:'/expert/myInfo/achievementExhibition'}" active-class="active">成果展示</RouterLink>
+      <RouterLink :to="{path:'/expert/myInfo/personalInfo'}" active-class="active">个人信息</RouterLink>
+      <RouterLink :to="{path:'/expert/myInfo/socialRelation'}" active-class="active">社交关系</RouterLink>
+    </div>
+    <!-- 展示区 -->
+    <div class="main-content">
+      <RouterView></RouterView>
+    </div>
 
     </div>
     <div class="column">
@@ -49,6 +60,39 @@ defineExpose({user});
 </template>
 
 <style scoped>
-
+  .navigate {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+  }
+  .navigate a {
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 5px;
+    border: 1px solid #000;
+  }
+  .navigate a.active {
+    color: skyblue;
+    font-weight: 900;
+    text-shadow: 0 0 1px black;
+    font-family: 微软雅黑;
+  }
+  .main-content {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+  }
 
 </style>

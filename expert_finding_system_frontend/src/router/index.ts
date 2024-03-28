@@ -4,6 +4,10 @@ import Nprogress from "../config/nprogress";
 import {useUserStore} from "../store/modules/user";
 import {useMenuStore} from "../store/modules/menu";
 import {useMemberStore} from "../store/modules/member";
+import achievementExhibition from "../pages/Introduction/achievementExhibition.vue";
+import personalInfo from "../pages/Introduction/personalInfo.vue";
+import socialRelation from "../pages/Introduction/socialRelation.vue";
+
 // 定义一些路由，每一个都需要映射到一个组件
 
 // 定义静态路由
@@ -43,6 +47,23 @@ export const staticRouter = [
                     title: '我的主页',
                 },
                 component: ()=> import('@/views/expert/Information/Introduction.vue'),
+                children:[
+                    {
+                        path:'achievementExhibition',
+                        
+                        component:achievementExhibition
+                    },
+                    {
+                        path:'personalInfo',
+                        
+                        component:personalInfo
+                    },
+                    {
+                        path:'socialRelation',
+                        
+                        component:socialRelation
+                    },
+                ]
             },
             {
                 path: 'register',

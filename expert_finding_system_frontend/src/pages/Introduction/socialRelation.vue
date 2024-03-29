@@ -1,60 +1,54 @@
 <template>
-  <div ref="chart" style="width: 600px; height: 400px;"></div>
+  <div ref="chartDiv" style="width: 100%; height: 500px;"></div>
 </template>
 
-<script lang="ts">
-  import * as echarts from 'echarts';
-  // 导入本地 JSON 文件
-  import graph from '@/assets/les-miserables.json';
+<script setup>
+import { onMounted, ref } from 'vue';
+import * as echarts from 'echarts';
+import socialRelationDataset from '@/assets/expert/socialRelationDataset/socialRelationDataset.json';
 
-  export default {
-    name: 'LesMiserablesChart',
-    mounted() {
-      this.initChart();
+const chartDiv = ref(null);
+
+onMounted(() => {
+  const myChart = echarts.init(chartDiv.value);
+
+  const option = {
+    title: {
+      text: 'socialRelation',
+      subtext: '',
+      top: 'top',
+      left: 'left',
     },
-    methods: {
-      initChart() {
-        const ChartDom = this.$refs.chart;
-        const myChart = echarts.init(ChartDom);
-        const option = {
-          tooltip: {},
-          legend: [
-            {
-              data: graph.categories.map((a) => a.name),
-            },
-          ],
-          series: [
-            {
-              name: 'Les Miserables',
-              type: 'graph',
-              layout: 'none',
-              data: graph.nodes,
-              links: graph.links,
-              categories: graph.categories,
-              roam: true,
-              label: {
-                show: true,
-                position: 'right',
-                formatter: '{b}',
-              },
-              labelLayout: {
-                hideOverlap: true,
-              },
-              scaleLimit: {
-                min: 0.4,
-                max: 2,
-              },
-              lineStyle: {
-                color: 'source',
-                curveness: 0.3,
-              },
-            },
-          ],
-        };
-        myChart.setOption(option);
+    tooltip: {},
+    legend: [
+      {
+        data: socialRelationDataset.categories.map((a) => a.name),
       },
-    },
+    ],
+    series: [
+      {
+        name: 'socialRelation',
+        type: 'graph',
+        layout: 'force',
+        data: socialRelationDataset.nodes.map((node) => ({
+          ...node,
+          symbolSize: 20,
+        })),
+        links: socialRelationDataset.links,
+        categories: socialRelationDataset.categories,
+        roam: true,
+        label: {
+          position: 'left',
+        },
+        force: {
+          repulsion: 200,
+        },
+      },
+    ],
   };
+
+  myChart.setOption(option);
+});
 </script>
 
 <style scoped>

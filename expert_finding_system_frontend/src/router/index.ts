@@ -7,6 +7,7 @@ import {useMemberStore} from "../store/modules/member";
 import achievementExhibition from "../pages/Introduction/achievementExhibition.vue";
 import personalInfo from "../pages/Introduction/personalInfo.vue";
 import socialRelation from "../pages/Introduction/socialRelation.vue";
+import academicNetwork from "../pages/Introduction/academicNetwork.vue";
 
 // 定义一些路由，每一个都需要映射到一个组件
 
@@ -63,6 +64,11 @@ export const staticRouter = [
                         
                         component:socialRelation
                     },
+                    {
+                        path:'academicNetwork',
+                        
+                        component:academicNetwork
+                    }
                 ]
             },
             {

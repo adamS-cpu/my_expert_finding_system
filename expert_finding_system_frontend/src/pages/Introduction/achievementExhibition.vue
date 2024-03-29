@@ -32,7 +32,10 @@ const activeType = ref('论文');
 const types = ['论文', '著作', '项目'];
 
 const papers = reactive([
-  { authors: 'Ling Huang, Ye Zhu, Yuefang Gao*, Tuo Liu, Chao Chang, Caixing Liu, Yong Tang*, Chang-Dong Wang', title: 'Hybrid-Order Anomaly Detection on Attributed Networks', journal: 'IEEE Transactions on Knowledge and Data Engineering', year: 'Dec. 2023' },
+  { authors: 'Ling Huang, Ye Zhu, Yuefang Gao*, Tuo Liu, Chao Chang, Caixing Liu, Yong Tang*, Chang-Dong Wang', 
+  title: 'Hybrid-Order Anomaly Detection on Attributed Networks', 
+  journal: 'IEEE Transactions on Knowledge and Data Engineering', 
+  year: 'Dec. 2023' },
   { authors: 'Binjie09', title: 'AI Development with Vue', journal: 'Vue Publications', year: '2022' },
 ]);
 

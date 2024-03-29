@@ -35,9 +35,10 @@ defineExpose({user});
     <div class="column is-three-quarters">
       <!-- 导航区 -->
     <div class="navigate">
-      <el-card><RouterLink :to="{path:'/expert/myInfo/achievementExhibition'}" active-class="active">成果展示</RouterLink></el-card>
-      <el-card><RouterLink :to="{path:'/expert/myInfo/personalInfo'}" active-class="active">个人信息</RouterLink></el-card>
-      <el-card><RouterLink :to="{path:'/expert/myInfo/socialRelation'}" active-class="active">社交关系</RouterLink></el-card>
+      <RouterLink :to="{path:'/expert/myInfo/achievementExhibition'}" active-class="active">成果展示</RouterLink>
+      <RouterLink :to="{path:'/expert/myInfo/personalInfo'}" active-class="active">个人信息</RouterLink>
+      <RouterLink :to="{path:'/expert/myInfo/socialRelation'}" active-class="active">社交关系</RouterLink>
+      <RouterLink :to="{path:'/expert/myInfo/academicNetwork'}" active-class="active">学术网络</RouterLink>
     </div>
     <!-- 展示区 -->
     <div class="main-content">
@@ -66,18 +67,16 @@ defineExpose({user});
     margin: 0 10px;
   }
   .navigate a {
-    display: block;
-    text-align: center;
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    letter-spacing: 5px;
+    color: #ffffff; /* 文本颜色 */
+    background-color: #007bff; /* 背景颜色 */
+    border: 1px solid #007bff; /* 边框样式 */
+    border-radius: 4px; /* 圆角 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 阴影效果 */
+    text-decoration: none; /* 去除下划线 */
+    padding: 8px 16px; /* 内边距 */
   }
   .navigate a.active {
-    color: skyblue;
+    color: yellow;
     font-weight: 900;
     text-shadow: 0 0 1px black;
     font-family: 微软雅黑;

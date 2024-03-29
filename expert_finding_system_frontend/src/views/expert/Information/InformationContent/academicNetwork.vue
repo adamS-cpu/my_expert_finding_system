@@ -22,8 +22,8 @@ onMounted(() => {
     title: {
       text: 'academicNetwork',
       subtext: '',
-      top: 'bottom',
-      left: 'right',
+      top: 'top',
+      left: 'left',
     },
     tooltip: {},
     legend: [

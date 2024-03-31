@@ -30,6 +30,16 @@ export const staticRouter = [
                 component: ()=> import('@/views/expert/expertFinding/Dynamic/Dynamic.vue'),
             },
             {
+                path:'selfInform',
+                name:'personalInformation',
+                component: ()=> import('@/views/expert/personalInformation/personalInformation.vue')
+            },
+            {
+                path:'changeCode',
+                name:'ChangeCode',
+                component: ()=> import('@/views/expert/changeCode/changeCode.vue')
+            },
+            {
                 path: 'analyzing',
                 name: 'Analyzing',
                 meta: {

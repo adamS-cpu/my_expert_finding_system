@@ -57,7 +57,8 @@
         <!--已登录内容 start-->
         <template v-if="expertInfo.nickname != '' ">
           <li class="expert-nav-item" :class="{'expert-active': expertActive='/account/userInfo'}">
-            <router-link to="/account/userInfo">个人中心</router-link>
+            <!-- <router-link to="/account/userInfo">个人中心</router-link> -->
+            <router-link to="/expert/selfInform">个人中心</router-link>
           </li>
 
           <li class="expert-nav-item" :class="{'expert-active': expertActive='/account/exitAccount'}">

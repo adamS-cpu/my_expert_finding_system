@@ -5,63 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09a44c53-9256-4ca4-b0ff-27f171644eb1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot3.x-system.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/ManageSystemApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/annotation/EnableSysLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/annotation/EnableXuedenQuery$Join.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/annotation/EnableXuedenQuery$Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/annotation/EnableXuedenQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/aspect/WebLogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/base/BaseEntity$Update.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/base/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/base/BaseResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/config/ConfigurerAdapter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/config/CustomAuditingListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/email/MailService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/exception/BadRequestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/exception/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/exception/ThrowableUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/controller/LogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/controller/RoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/domain/SysLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/domain/SysRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/domain/SysUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/repository/SysLogRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/repository/SysRoleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/repository/SysUserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/service/ILogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/service/IRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/service/ISysUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/service/dto/RoleQueryCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/service/dto/SysLogQueryCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/service/dto/UserQueryCriteria.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/service/impl/SysLogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/service/impl/SysRoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/service/impl/SysUserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/system/vo/ModifyPwdModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/utils/IpInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/utils/Md5Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/utils/NativeFileUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/utils/PageUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/utils/PageVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/utils/QueryHelp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/utils/QueryHelp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/utils/ResultVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/xueden/utils/XuedenUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/collaborateAnalyzing/analyzingHeader/RelationSchema.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/collaborateAnalyzing/analyzingHeader/RelationSchema.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/index/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/viteenv/.env.development" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/viteenv/.env.development" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +40,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="/usr/local/apache-maven-3.9.6/mvn_repo" />
         <option name="mavenHome" value="/usr/local/apache-maven-3.9.6" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="/usr/local/apache-maven-3.9.6/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -112,33 +59,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/guohaoyu/Documents/苏大/竞赛/计算机设计大赛/expert_finding_system/expert_finding_system-master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.5\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/guohaoyu/Documents/苏大/竞赛/计算机设计大赛/expert_finding_system/expert_finding_system-master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;350aca567bf71a71c3c2938825f42414&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.5\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Spring Boot.ExpertFindingSystem">
+  <component name="RunManager" selected="Spring Boot.ExpertFindingSystemApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -165,6 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="springboot3.x-system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -172,8 +140,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExpertFindingSystem" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="springboot3.x-system" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="springboot3.x-system" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="springboot3.x-system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="springboot3.x-system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="springboot3.x-system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExpertFindingSystem" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.hzy.ExpertFindingSystemApplication" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
@@ -189,6 +218,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExpertFindingSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot3.x-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.hzy.ExpertFindingSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -197,6 +233,18 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="springboot3.x-system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
@@ -234,6 +282,9 @@
       <workItem from="1711548320230" duration="124000" />
       <workItem from="1711587772907" duration="995000" />
       <workItem from="1711596844350" duration="2750000" />
+      <workItem from="1711884675018" duration="35000" />
+      <workItem from="1711884723856" duration="60000" />
+      <workItem from="1711884936562" duration="1388000" />
     </task>
     <servers />
   </component>

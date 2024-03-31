@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09a44c53-9256-4ca4-b0ff-27f171644eb1" name="Changes" comment="" />
+    <list default="true" id="09a44c53-9256-4ca4-b0ff-27f171644eb1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
@@ -63,7 +66,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/学灯网录制的视频教程/第2阶段 实战课程/03 springboot实战课程/springboot3.x脚手架/springboot3.x-system&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/test2024/my_expert_finding_system-master/expert_finding_system-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -184,6 +187,7 @@
       <workItem from="1711548320230" duration="124000" />
       <workItem from="1711587772907" duration="995000" />
       <workItem from="1711688640696" duration="3510000" />
+      <workItem from="1711787623955" duration="1130000" />
     </task>
     <servers />
   </component>

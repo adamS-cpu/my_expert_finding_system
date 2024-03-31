@@ -72,10 +72,10 @@ export const staticRouter = [
                 component: ()=> import('@/views/expert/account/Register.vue')
             },
             {
-                        path: 'login',
-                        name: 'Login',
-                        meta: {title: '跨领域专家发现系统-用户登录'},
-                        component: ()=> import('@/views/expert/account/Login.vue')
+                path: 'login',
+                name: 'Login',
+                meta: {title: '跨领域专家发现系统-用户登录'},
+                component: ()=> import('@/views/expert/account/Login.vue')
             },
         ]
     },

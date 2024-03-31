@@ -1,5 +1,5 @@
 <template>
-  <div ref="chart" style="width: 600px; height: 400px;"></div>
+  <div ref="chart" style="width: 100%; height: 100%;"></div>
 </template>
 
 <script>
@@ -16,6 +16,7 @@ export default {
     initChart() {
       const chartDom = this.$refs.chart;
       const myChart = echarts.init(chartDom);
+      this.myChart = myChart;
       const option = {
         tooltip: {},
         legend: [
@@ -52,10 +53,30 @@ export default {
         ],
       };
       myChart.setOption(option);
+      // 添加点击事件监听
+      myChart.on('click', (params) => {
+        if (params.componentType === 'series' && params.seriesType === 'graph' 
+        && params.dataType === 'node') {
+          // 发射自定义事件，params为点击的节点数据
+          this.$emit('node-clicked', params.data);
+        }
+      });
+
+    },
+    highlightNodeInChart(nodeId) {
+      // 直接使用nodeId作为dataIndex来高亮节点
+      this.myChart.dispatchAction({
+        type: 'highlight',
+        seriesIndex: 0, // 假设图表只有一个系列且其索引为0
+        dataIndex: nodeId // 因为id即为索引，直接使用nodeId
+      });
+      // 如果需要，这里还可以添加逻辑来调整图表视图，将视图中心移动到高亮的节点
+
     },
   },
 };
 </script>
+
 <style scoped>
 :global(h2#card-usage ~ .example .example-showcase) {
   background-color: var(--el-fill-color) !important;

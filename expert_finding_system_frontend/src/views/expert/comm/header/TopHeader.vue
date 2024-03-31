@@ -86,7 +86,7 @@
 
 <style scoped>
 .expert-header{
-  height: 75px;
+  height: 68px;
   width: 100%;
   border-bottom: 1px solid #404553;
   background-color: #083545;

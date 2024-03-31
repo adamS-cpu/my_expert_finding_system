@@ -1,0 +1,274 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "李四",
+      "symbolSize": 10,
+      "x": -1000,
+      "y": 100,
+      "value": 4,
+      "category": 0
+    },
+    {
+      "id": "2",
+      "name": "Andrew Ng",
+      "symbolSize": 10,
+      "x": 0,
+      "y": -789.012,
+      "value": 4,
+      "category": 1
+    },
+    {
+      "id": "3",
+      "name": "Geoffrey Hinton",
+      "symbolSize": 10,
+      "x": 0,
+      "y": 321.654,
+      "value": 4,
+      "category": 1
+    },
+    {
+      "id": "4",
+      "name": "Yann LeCun",
+      "symbolSize": 10,
+      "x": 0,
+      "y": -321.987,
+      "value": 4,
+      "category": 1
+    },
+    {
+      "id": "5",
+      "name": "Fei-Fei Li",
+      "symbolSize": 10,
+      "x": 0,
+      "y": 987.654,
+      "value": 4,
+      "category": 1
+    },
+    {
+      "id": "6",
+      "name": "Yoshua Bengio",
+      "symbolSize": 10,
+      "x": 0,
+      "y": -123.456,
+      "value": 4,
+      "category": 1
+    },
+    {
+      "id": "7",
+      "name": "A Neural Probabilistic Language Model",
+      "symbolSize": 10,
+      "x": -500,
+      "y": 456.789,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "8",
+      "name": "Deep Residual Learning for Image Recognition",
+      "symbolSize": 10,
+      "x": -500,
+      "y": -234.567,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "9",
+      "name": "Generative Adversarial Networks",
+      "symbolSize": 10,
+      "x": -500,
+      "y": 890.234,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "10",
+      "name": "Attention Is All You Need",
+      "symbolSize": 10,
+      "x": -500,
+      "y": -987.654,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "11",
+      "name": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+      "symbolSize": 10,
+      "x": -500,
+      "y": 543.210,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "12",
+      "name": "Transformer Networks",
+      "symbolSize": 10,
+      "x": -500,
+      "y": -789.012,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "13",
+      "name": "Recurrent Neural Networks",
+      "symbolSize": 10,
+      "x": -500,
+      "y": 987.654,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "14",
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "symbolSize": 10,
+      "x": 500,
+      "y": -876.543,
+      "value": 4,
+      "category": 3
+    },
+    {
+      "id": "15",
+      "name": "ACM Transactions on Graphics",
+      "symbolSize": 10,
+      "x": 500,
+      "y": 432.109,
+      "value": 4,
+      "category": 3
+    },
+    {
+      "id": "16",
+      "name": "Journal of Artificial Intelligence Research",
+      "symbolSize": 10,
+      "x": 500,
+      "y": -321.098,
+      "value": 4,
+      "category": 3
+    },
+    {
+      "id": "17",
+      "name": "IEEE Transactions on Visualization and Computer Graphics",
+      "symbolSize": 10,
+      "x": 500,
+      "y": 765.432,
+      "value": 4,
+      "category": 3
+    },
+    {
+      "id": "18",
+      "name": "ACM Transactions on Computer-Human Interaction",
+      "symbolSize": 10,
+      "x": 500,
+      "y": -543.210,
+      "value": 4,
+      "category": 3
+    }
+    
+    
+    
+  ],
+  "links": [
+    {
+      "source": "1",
+      "target": "7"
+    },
+    {
+      "source": "1",
+      "target": "8"
+    },
+    {
+      "source": "1",
+      "target": "9"
+    },
+    {
+      "source": "1",
+      "target": "10"
+    },
+    {
+      "source": "1",
+      "target": "11"
+    },
+    {
+      "source": "1",
+      "target": "12"
+    },
+    {
+      "source": "1",
+      "target": "13"
+    },
+    {
+      "source": "2",
+      "target": "7"
+    },
+    {
+      "source": "3",
+      "target": "8"
+    },
+    {
+      "source": "4",
+      "target": "9"
+    },
+    {
+      "source": "5",
+      "target": "10"
+    },
+    {
+      "source": "6",
+      "target": "11"
+    },
+    {
+      "source": "5",
+      "target": "12"
+    },
+    {
+      "source": "4",
+      "target": "13"
+    },
+    {
+      "source": "7",
+      "target": "14"
+    },
+    {
+      "source": "8",
+      "target": "15"
+    },
+    {
+      "source": "9",
+      "target": "16"
+    },
+    {
+      "source": "10",
+      "target": "17"
+    },
+    {
+      "source": "11",
+      "target": "18"
+    },
+    {
+      "source": "12",
+      "target": "15"
+    },
+    {
+      "source": "13",
+      "target": "14"
+    }
+
+    
+    
+
+
+  ],
+  "categories": [
+    {
+      "name": "User"
+    },
+    {
+      "name": "Collaborator"
+    },
+    {
+      "name":"Paper"
+    },
+    {
+      "name":"Periodical"
+    }
+  ]
+}

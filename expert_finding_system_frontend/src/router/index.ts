@@ -22,6 +22,11 @@ export const staticRouter = [
         isMenu: false,
         children: [
             {
+                path:'setting',
+                name:'Setting',
+                component: ()=> import('@/views/expert/personalInformation/registerSetting.vue')
+            },
+            {
                 path: 'dynamic',
                 name: 'Dynamic',
                 meta: {
@@ -72,6 +77,12 @@ export const staticRouter = [
                 name: 'Login',
                 meta: {title: '跨领域专家发现系统-用户登录'},
                 component: ()=> import('@/views/expert/account/Login.vue')
+            },
+            {
+                path: 'registerSetting',
+                name: 'registerSetting',
+                meta: {title: '跨领域专家发现系统-完善信息'},
+                component: ()=> import('@/views/expert/personalInformation/registerSetting.vue')
             },
         ]
     },

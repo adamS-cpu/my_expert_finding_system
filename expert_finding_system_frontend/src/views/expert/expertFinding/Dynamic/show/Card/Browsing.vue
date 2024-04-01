@@ -20,28 +20,58 @@ onMounted(()=>{
     <template #header>
       🥳 最近浏览
     </template>
-    <div v-for="item in userList" :key="item" class="text item">
-      <el-card style="height: 80px" shadow="never">
-        <div class="columns">
-          <div class="column is-one-quarter" >
-            <router-link :to="{path:'expert/user', query:{id:item.id}}">
-              <img src= "@/assets/expert/image/example-user-icon-small.png" style="border: 1px solid lightgray; border-radius: 10px;" alt="user-icon" />
-            </router-link>
-          </div>
-          <div class="column" >
-            <p style="font-size: 16px;"> {{item.username}}</p>
-            <p style="font-size: 12px;"> {{item.organization}} </p>
-          </div>
-          <div class="column is-one-third">
-            <el-button type="primary" round>发消息</el-button>
-          </div>
-        </div>
-      </el-card>
+    <div class="text item">
+  <el-card style="height: 80px" shadow="never">
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <a href="/expert/user?id=1">
+          <div class="avatar">王</div>
+        </a>
+      </div>
+      <div class="column">
+        <p style="font-size: 16px;">王磊</p>
+        <p style="font-size: 12px;">Soochow University</p>
+      </div>
+      <div class="column is-one-third">
+        <el-button type="primary" round>发消息</el-button>
+      </div>
     </div>
+  </el-card>
+</div>
+
+<div class="text item">
+  <el-card style="height: 80px" shadow="never">
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <a href="/expert/user?id=2">
+          <div class="avatar">孙</div>
+        </a>
+      </div>
+      <div class="column">
+        <p style="font-size: 16px;">孙建</p>
+        <p style="font-size: 12px;">Tsinghua University</p>
+      </div>
+      <div class="column is-one-third">
+        <el-button type="primary" round>发消息</el-button>
+      </div>
+    </div>
+  </el-card>
+</div>
   </el-card>
 </template>
 
 
 <style scoped>
-
+  .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  font-weight: bold;
+}
 </style>

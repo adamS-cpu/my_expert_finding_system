@@ -6,6 +6,7 @@
   <!--顶部-->
   <div class="analyzing-header">
     <div class="objectUser">
+      <!-- <img src= "@/assets/expert/image/example-user-icon.png" style="border: 1px solid lightgray; border-radius: 10px;" alt="user-icon" /> -->
       <img src= "@/assets/expert/image/example-user-icon.png" style="border: 1px solid lightgray; border-radius: 10px;" alt="user-icon" />
       <div class="userInfo">
         <div class="userName">

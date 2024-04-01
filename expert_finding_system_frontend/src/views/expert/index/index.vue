@@ -2,31 +2,18 @@
   import TopHeader from "@/views/expert/comm/header/TopHeader.vue";
   import Footer from "@/views/expert/comm/bottom/Footer.vue";
   import Search from "@/views/expert/comm/search/Search.vue";
-
+  import RelationSchema from "@/views/expert/collaborateAnalyzing/analyzingHeader/RelationSchema.vue";
+  import frontpage from "@/views/expert/index/frontpage.vue";
+  import graph from '@/assets/les-miserables.json';
 </script>
 
 <template>
   <!--顶部 start-->
-    <TopHeader/>
+  <div><TopHeader/></div>
   <!--顶部 end-->
 
   <!--中间内容 开始-->
-  <div class="expert-nav">
-    <!--搜索组件 start-->
-    <Search/>
-    <!--搜索组件 end-->
-    <div class="expert-index">
-      <!--示例广告幻灯片-->
-      <el-carousel height="600px">
-        <el-carousel-item>
-          <img src="@/assets/expert/image/banner1.jpg" alt="专家发现1"/>
-        </el-carousel-item>
-        <el-carousel-item>
-          <img src="@/assets/expert/image/banner1.jpg" alt="专家发现2"/>
-        </el-carousel-item>
-      </el-carousel>
-    </div>
-  </div>
+  <frontpage/>
   <!--中间内容 结束-->
 
 
@@ -35,19 +22,8 @@
   <!--底部 end-->
 </template>
 
+<script lang="ts">
+</script>
+
 <style scoped>
-
-
-.expert-nav {
-  background-color: #FFF;
-}
-
-.expert-nav .expert-index {
-  padding-top: 50px;
-  padding-left: 280px;
-  padding-right: 240px;
-  padding-bottom: 50px;
-}
-
-
 </style>

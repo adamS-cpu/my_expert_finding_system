@@ -1,14 +1,18 @@
 <script setup lang="ts">
 import TopHeader from "@/views/expert/comm/header/TopHeader.vue"
 import Footer from "@/views/expert/comm/bottom/Footer.vue"
-import { ref, reactive } from "vue";
+import { ref } from "vue";
 import DynamicList from "@/views/expert/expertFinding/Dynamic/show/DynamicList.vue";
 import DynamicCard from "@/views/expert/expertFinding/Dynamic/show/DynamicCard.vue";
 import AnalyzingHeader from "@/views/expert/collaborateAnalyzing/analyzingHeader/AnalyzingHeader.vue";
 import AnalyzingContent from "@/views/expert/collaborateAnalyzing/analyzingHeader/AnalyzingContent.vue";
 import Recommendation from "@/views/expert/collaborateAnalyzing/analyzingRecommendation/Recommendation.vue";
 import MyIntroduction from "@/views/expert/Information/InformationHead/MyIntroduction.vue";
-import { RouterLink,RouterView } from "vue-router";
+import socialRelation from "@/views/expert/Information/InformationContent/socialRelation.vue";
+import personalInfo from "@/views/expert/Information/InformationContent/personalInfo.vue";
+import achievementExhibition from "@/views/expert/Information/InformationContent/achievementExhibition.vue";
+import academicNetwork from "@/views/expert/Information/InformationContent/academicNetwork.vue";
+
 
 const user = ref({
   avatar: "@/assets/expert/image/example-user-icon.png",
@@ -30,25 +34,37 @@ defineExpose({user});
   <div class="box"> <MyIntroduction/> </div>
 
   <!--    个人信息内容-->
-  <div class="columns">
+  <section>
+    <el-card>
+      <template #header>
+        <el-icon><User /></el-icon> 个人信息
+      </template>
+      <personalInfo/>
+    </el-card>
 
-    <div class="column is-three-quarters">
-      <!-- 导航区 -->
-    <div class="navigate">
-      <RouterLink :to="{path:'/expert/myInfo/achievementExhibition'}" active-class="active">成果展示</RouterLink>
-      <RouterLink :to="{path:'/expert/myInfo/personalInfo'}" active-class="active">个人信息</RouterLink>
-      <RouterLink :to="{path:'/expert/myInfo/socialRelation'}" active-class="active">社交关系</RouterLink>
-    </div>
-    <!-- 展示区 -->
-    <div class="main-content">
-      <RouterView></RouterView>
-    </div>
+    <el-card>
+      <template #header>
+        <el-icon><Medal /></el-icon> 成果展示
+      </template>
+      <achievementExhibition/>
+      <Charts/>
+    </el-card>
+    
+    <el-card>
+      <template #header>
+        <el-icon><location/></el-icon> 社交关系
+      </template>
+      <socialRelation/>
+    </el-card>
 
-    </div>
-    <div class="column">
+    <el-card>
+      <template #header>
+        <el-icon><DataAnalysis /></el-icon> 学术网络
+      </template>
+      <academicNetwork/>
+    </el-card>
+  </section>
 
-    </div>
-  </div>
 
 
   <!--中间部分结束-->
@@ -66,19 +82,16 @@ defineExpose({user});
     margin: 0 10px;
   }
   .navigate a {
-    display: block;
-    text-align: center;
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    letter-spacing: 5px;
-    border: 1px solid #000;
+    color: #ffffff; /* 文本颜色 */
+    background-color: #007bff; /* 背景颜色 */
+    border: 1px solid #007bff; /* 边框样式 */
+    border-radius: 4px; /* 圆角 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 阴影效果 */
+    text-decoration: none; /* 去除下划线 */
+    padding: 8px 16px; /* 内边距 */
   }
   .navigate a.active {
-    color: skyblue;
+    color: yellow;
     font-weight: 900;
     text-shadow: 0 0 1px black;
     font-family: 微软雅黑;
@@ -87,12 +100,29 @@ defineExpose({user});
     margin: 0 auto;
     margin-top: 30px;
     width: 100%;
-    border: 1px solid;
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     height: 100%;
+  }
+  .paper-list {
+    font-family: 'Arial', sans-serif; /* 论文列表字体 */
+  }
+
+  .book-list {
+    font-family: 'Georgia', serif; /* 著作列表字体 */
+  }
+
+  .project-list {
+    font-family: 'Verdana', sans-serif; /* 项目列表字体 */
+  }
+
+  .paper-info,
+  .book-info,
+  .project-info {
+    font-size: 16px; /* 设置内容字体大小 */
+    margin-bottom: 8px; /* 设置内容间距 */
   }
 
 </style>

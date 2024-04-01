@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="09a44c53-9256-4ca4-b0ff-27f171644eb1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/InformationContent/achievementExhibition.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/InformationContent/achievementExhibition.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/InformationContent/personalInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/InformationContent/personalInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/InformationHead/MyIntroduction.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/InformationHead/MyIntroduction.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/Introduction.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/Introduction.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/comm/search/Search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/comm/search/Search.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/index/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +43,10 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\maven_context\apache-maven-3.8.8\repo" />
-        <option name="mavenHome" value="E:/maven_context/apache-maven-3.8.8" />
-        <option name="userSettingsFile" value="E:\maven_context\apache-maven-3.8.8\conf\settings.xml" />
+        <option name="localRepository" value="/usr/local/apache-maven-3.9.6/mvn_repo" />
+        <option name="mavenHome" value="/usr/local/apache-maven-3.9.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="/usr/local/apache-maven-3.9.6/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -67,7 +74,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/学灯网录制的视频教程/第2阶段 实战课程/03 springboot实战课程/springboot3.x脚手架/springboot3.x-system&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/guohaoyu/Documents/苏大/竞赛/计算机设计大赛/expert_finding_system/expert_finding_system-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,7 +82,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;350aca567bf71a71c3c2938825f42414&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.2.5\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -83,7 +91,7 @@
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="Spring Boot.ExpertFindingSystem">
+  <component name="RunManager" selected="Spring Boot.ExpertFindingSystemApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -118,7 +126,7 @@
       </method>
     </configuration>
     <configuration name="ExpertFindingSystem" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springboot3.x-system" />
+      <option name="ACTIVE_PROFILES" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.hzy.ExpertFindingSystemApplication" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
@@ -130,6 +138,13 @@
           <ENTRY IS_ENABLED="true" PARSER="runconfig" />
         </ENTRIES>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpertFindingSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot3.x-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.hzy.ExpertFindingSystemApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,10 +193,26 @@
       <workItem from="1711540321241" duration="1509000" />
       <workItem from="1711548320230" duration="124000" />
       <workItem from="1711587772907" duration="995000" />
+      <workItem from="1711596844350" duration="2750000" />
+      <workItem from="1711884675018" duration="35000" />
+      <workItem from="1711884723856" duration="60000" />
+      <workItem from="1711884936562" duration="1986000" />
+      <workItem from="1711890173504" duration="1804000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

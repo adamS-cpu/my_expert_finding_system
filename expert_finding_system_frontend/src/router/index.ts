@@ -4,9 +4,6 @@ import Nprogress from "../config/nprogress";
 import {useUserStore} from "../store/modules/user";
 import {useMenuStore} from "../store/modules/menu";
 import {useMemberStore} from "../store/modules/member";
-import achievementExhibition from "../pages/Introduction/achievementExhibition.vue";
-import personalInfo from "../pages/Introduction/personalInfo.vue";
-import socialRelation from "../pages/Introduction/socialRelation.vue";
 
 // 定义一些路由，每一个都需要映射到一个组件
 
@@ -25,12 +22,32 @@ export const staticRouter = [
         isMenu: false,
         children: [
             {
+                path:'setting',
+                name:'Setting',
+                component: ()=> import('@/views/expert/personalInformation/registerSetting.vue')
+            },
+            {
                 path: 'dynamic',
                 name: 'Dynamic',
                 meta: {
                     title: '用户动态',
                 },
                 component: ()=> import('@/views/expert/expertFinding/Dynamic/Dynamic.vue'),
+            },
+            {
+                path:'selfInform',
+                name:'personalInformation',
+                component: ()=> import('@/views/expert/personalInformation/personalInformation.vue')
+            },
+            {
+                path:'Message',
+                name:'Message',
+                component: ()=> import('@/views/expert/MyMessage/Message.vue')
+            },
+            {
+                path:'changeCode',
+                name:'ChangeCode',
+                component: ()=> import('@/views/expert/changeCode/changeCode.vue')
             },
             {
                 path: 'analyzing',
@@ -47,23 +64,7 @@ export const staticRouter = [
                     title: '我的主页',
                 },
                 component: ()=> import('@/views/expert/Information/Introduction.vue'),
-                children:[
-                    {
-                        path:'achievementExhibition',
-                        
-                        component:achievementExhibition
-                    },
-                    {
-                        path:'personalInfo',
-                        
-                        component:personalInfo
-                    },
-                    {
-                        path:'socialRelation',
-                        
-                        component:socialRelation
-                    },
-                ]
+                
             },
             {
                 path: 'register',
@@ -77,6 +78,12 @@ export const staticRouter = [
                 meta: {title: '跨领域专家发现系统-用户登录'},
                 component: ()=> import('@/views/expert/account/Login.vue')
             },
+            {
+                path: 'registerSetting',
+                name: 'registerSetting',
+                meta: {title: '跨领域专家发现系统-完善信息'},
+                component: ()=> import('@/views/expert/personalInformation/registerSetting.vue')
+            },
         ]
     },
     {
@@ -86,7 +93,18 @@ export const staticRouter = [
         isMenu: false,
         component: ()=> import('@/views/expert/index/index.vue')
     },
-
+    {
+        path: '/search-results',
+        name: 'SearchResults',
+        component: ()=> import('@/views/expert/index/SearchResults.vue')
+        // component: SearchResults,
+    },
+    {
+        path: '/scholar/:id',
+        name: 'ScholarDetails',
+        component: ()=> import('@/views/expert/index/ScholarDetails.vue')
+        // component: SearchResults,
+    },
     {
         // 后台登录是后台管理系统的模板，我这边没有动它
         path: '/endLogin',

@@ -1,0 +1,456 @@
+{
+    "nodes": [
+      {
+        "id": "0",
+        "name": "周志华",
+        "symbolSize": 19.12381,
+        "universe": "南京大学",
+        "title":"教授",
+        "x": -266.82776,
+        "y": 299.6904,
+        "value": 28.685715,
+        "category": 0,
+        "awards":"获得国家自然科学二等奖两项 （2013，2020）、教育部自然科学一等奖 三项（2005，2011，2019）",
+        "education":"南京大学学士，硕士和博士",
+        "tags": [ "数据挖掘","人工智能","机器学习"],
+        "subjecttype": [ "生物、医学信息系统与技术","模式识别与数据挖掘","人工智能"],
+        "science":{
+          "topic":"Top 10 algorithms in data mining",
+          "key":null,
+          "abstract":"This paper presents the top 10 data mining algorithms identified by the IEEE International Conference on Data Mining (ICDM) in December 2006: C4.5, k-Means, SVM, Apriori, EM, PageRank, AdaBoost, kNN, Naive Bayes, and CART. These top 10 algorithms are among the most influential data mining algorithms in the research community. With each algorithm, we provide a description of the algorithm, discuss the impact of the algorithm, and review current and further research on the algorithm.These 10 algorithms cover classification, clustering, statistical learning, association analysis, and link mining, which are all among the most important topics in data mining research and development."
+        }
+      },
+      {
+        "id": "1",
+        "name": "高尉",
+        "symbolSize": 2.6666666666666665,
+        "x": -418.08344,
+        "y": 446.8853,
+        "value": 4,
+        "category": 0,
+        "title":"教授",
+        "universe": "南京大学",
+        "awards":"中国电子学会优秀博士学位论文奖,哈尔滨工业大学优秀博士学位论文奖",
+        "education":"南开大学学士，南京大学博士",
+        "keyword": null,
+        "subjecttype": [ "复杂性科学与人工智能理论","机器学习"],
+        "history" : "南京大学-计算机科学与技术系, 副研究员",
+        "science":{
+          "topic":"On the consistency of multi-label learning",
+          "key":["Machine learning","Multi-label learning","Surrogate loss","Bayes consistency","Ranking loss","Hamming loss"],
+          "abstract":"Multi-label learning has attracted much attention during the past few years. Many multi-label approaches have been developed, mostly working with surrogate loss functions because multi-label loss functions are usually difficult to optimize directly owing to their non-convexity and discontinuity. These approaches are effective empirically, however, little effort has been devoted to the understanding of their consistency, i.e., the convergence of the risk of learned functions to the Bayes risk. In this paper, we present a theoretical analysis on this important issue. We first prove a necessary and sufficient condition for the consistency of multi-label learning based on surrogate loss functions. Then, we study the consistency of two well-known multi-label loss functions, i.e., ranking loss and hamming loss. For ranking loss, our results disclose that, surprisingly, none of convex surrogate loss is consistent; we present the partial ranking loss, with which some surrogate losses are proven to be consistent. We also discuss on the consistency of univariate surrogate losses. For hamming loss, we show that two multi-label learning methods, i.e., one-vs-all and pairwise comparison, which can be regarded as direct extensions from multi-class learning, are inconsistent in general cases yet consistent under the dominating setting, and similar results also hold for some recent multi-label approaches that are variations of one-vs-all. In addition, we discuss on the consistency of learning approaches that address multi-label learning by decomposing into a set of binary classification problems."
+        }
+      },
+      {
+        "id": "2",
+        "name": "Ting Kai Ming",
+        "symbolSize": 6.323809333333333,
+        "x": -212.76357,
+        "y": 245.29176,
+        "value": 9.485714,
+        "category": 1,
+        "title":"教授",
+        "universe": "悉尼大学",
+        "awards":"江苏省科学技术二等奖",
+        "education":"莫纳什大学硕士，悉尼大学博士",
+        "keyword": null,
+        "subjecttype":null,
+        "history" : "人工智能学院, 教授",
+        "science":null
+      },
+      {
+        "id": "3",
+        "name": "陈松灿",
+        "symbolSize": 6.323809333333333,
+        "x": -242.82404,
+        "y": 235.26283,
+        "value": 9.485714,
+        "category": 1,
+        "title":"教授",
+        "universe": "南京航空航天大学",
+        "awards":"江苏省计算机学会青年科技奖",
+        "education":"杭州大学数学系学士、上海交通大学计算中心硕士和南京航空航天大学博士",
+        "keyword": [ "稀疏表示","图像分割","神经计算","人脸识别","半监督学习","流形学习","支持向量机","模式分类","特征选择","特征提取"],
+        "subjecttype": [ "机器学习","生物、医学信息系统与技术","系统工程理论与技术"],
+        "history" : "南京航空航天大学, 教授",
+        "science":[
+          {
+          "topic":"Face recognition from a single image per person: A survey",
+          "key":["face recognition","single training image per person"],
+          "abstract":"One of the main challenges faced by the current face recognition techniques lies in the difficulties of collecting samples. Fewer samples per person mean less laborious effort for collecting them, lower cost for storing and processing them. Unfortunately, many reported face recognition techniques rely heavily on the size and representative of training set, and most of them will suffer serious performance drop or even fail to work if only one training sample per person is available to the systems. This situation is called "one sample per person" problem: given a stored database of faces, the goal is to identify a person from the database later in time in any different and unpredictable poses, lighting, etc. from just one image. Such a task is very challenging for most current algorithms due to the extremely limited representative of training sample. Numerous techniques have been developed to attack this problem, and the purpose of this paper is to categorize and evaluate these algorithms. The prominent algorithms are described and critically analyzed. Relevant issues such as data collection, the influence of the small sample size, and system evaluation are discussed, and several promising directions for future research are also proposed in this paper."
+          },
+          {
+            "topic":"Sparsity preserving projections with applications to face recognition",
+            "key":["Dimensionality reduction","Sparse representation","Compressive sensing","Face recognition"],
+          "abstract":"Dimensionality reduction methods (DRs) have commonly been used as a principled way to understand the high-dimensional data such as face images. In this paper, we propose a new unsupervised DR method called sparsity preserving projections (SPP). Unlike many existing techniques such as local preserving projection (LPP) and neighborhood preserving embedding (NPE), where local neighborhood information is preserved during the DR procedure, SPP aims to preserve the sparse reconstructive relationship of the data, which is achieved by minimizing a L1 regularization-related objective function. The obtained projections are invariant to rotations, rescalings and translations of the data, and more importantly, they contain natural discriminating information even if no class labels are provided. Moreover, SPP chooses its neighborhood automatically and hence can be more conveniently used in practice compared to LPP and NPE. The feasibility and effectiveness of the proposed method is verified on three popular face databases (Yale, AR and Extended Yale B) with promising results."
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "叶翰嘉",
+        "symbolSize": 2.6666666666666665,
+        "x": -379.30386,
+        "y": 429.06424,
+        "value": 4,
+        "category": 0,
+        "title":"教授",
+        "universe": "南京大学",
+        "awards":"江苏省“青蓝工程”优秀青年骨干教师培养对象、江苏省优秀硕士学位论文指导教师（两次）等荣誉称号",
+        "education":"南京大学学士和硕士，北京航空航天大学博士",
+        "keyword": null,
+        "subjecttype": [ "生物、医学信息系统与技术","模式识别与数据挖掘","人工智能"],
+        "history" : "南京大学, 副研究员",
+        "science":{
+          "topic":"Zircon U-Pb chronology and Hf isotope of the Xingxingxia granodiorite from the Central Tianshan zone (NW China): Implications for the tectonic evolution of the southern Altaids",
+          "key":["LA-ICP-MS U-Pb zircon geochronology","Hf isotopes"," Proterozoic","Central Tianshan zone"],
+        "abstract":"The Central Tianshan zone is located between the Turpan-Hami and Tarim   blocks and played a pivotal role in crustal evolution and collisional   tectonics of the southern Altaids (or the Central Asian orogenic belt).   The Xingxingxia granodiorite in the eastern Central Tianshan is an Early   Paleozoic (424.9 +/- 5.8 Ma) intrusion. Petrography, geochemistry and   Sr-Nd-Hf isotopes suggest that the Xingxingxia granodiorite was   genetically related to a volcanic arc, emplaced above a subduction zone.   Thus, the Central Tianshan zone was a magmatic arc above an early   Paleozoic subduction zone of the Paleoasian ocean. We present LA-ICP-MS   zircon U-Pb dating and Hf isotope determinations of Precambrian zircon   grains trapped in the Xingxingxia granodiorite. Three populations of   inherited zircons indicate that Neoproterozoic (809 +/- 41 Ma;   epsilon(Hf)(t)= 0.10-5.73), Mesoproterozoic (similar to 1400 Ma;   epsilon(Hf)(t) 8.71-10.05) and Paleoproterozoic (similar to 1750 Ma;   epsilon(Hf)(t) 0.11 and 4.80) tectonomagmatic events in the Central   Tianshan zone, which are comparable with those in the Tarim block.   Combined with a series of similar geological characteristics between   these two blocks, it is suggested that the Central Tianshan zone might   have been originally a part of the Tarim block, and was separated from   it during the Early Paleozoic time due to pull-apart caused by southward   subduction of the Northern Tianshan ocean, a branch of the Paleoasian   ocean."
+        }
+      },
+      {
+        "id": "5",
+        "name": "张道强",
+        "symbolSize": 2.6666666666666665,
+        "x": -417.26337,
+        "y": 406.03506,
+        "value": 4,
+        "category": 0,
+        "title":"教授",
+        "universe": "南京航空航天大学",
+        "awards":"江苏省科学技术二等奖",
+        "education":"南京航空航天大学学士，硕士，博士",
+        "keyword": [ "数据挖掘","人脸识别","模式分类","特征选择","图像分割"],
+        "subjecttype": [ "机器学习","模式识别与数据挖掘","复杂性科学与人工智能理论","知识表示与处理","人工智能"],
+        "history" : "南京航空航天大学, 教授",
+        "science":[{
+          "topic":"Top 10 algorithms in data mining",
+          "key":null,
+        "abstract":"This paper presents the top 10 data mining algorithms identified by the IEEE International Conference on Data Mining (ICDM) in December 2006: C4.5, k-Means, SVM, Apriori, EM, PageRank, AdaBoost, kNN, Naive Bayes, and CART. These top 10 algorithms are among the most influential data mining algorithms in the research community. With each algorithm, we provide a description of the algorithm, discuss the impact of the algorithm, and review current and further research on the algorithm.These 10 algorithms cover classification, clustering, statistical learning, association analysis, and link mining, which are all among the most important topics in data mining research and development."
+        },
+        {
+          "science":[{
+            "topic":"Robust image segmentation using FCM with spatial constraints based on new kernel-induced distance measure",
+            "key":["fuzzy C-means clustering (FCM)","image segmentation","kernel-induced distance measures","kernel methods"],
+          "abstract":"This paper presents the top 10 data mining algorithms identified by the IEEE International Conference on Data Mining (ICDM) in December 2006: C4.5, k-Means, SVM, Apriori, EM, PageRank, AdaBoost, kNN, Naive Bayes, and CART. These top 10 algorithms are among the most influential data mining algorithms in the research community. With each algorithm, we provide a description of the algorithm, discuss the impact of the algorithm, and review current and further research on the algorithm.These 10 algorithms cover classification, clustering, statistical learning, association analysis, and link mining, which are all among the most important topics in data mining research and development."
+        }
+      ]
+      },
+      {
+        "id": "6",
+        "name": "徐桂芳",
+        "symbolSize": 2.6666666666666665,
+        "x": -332.6012,
+        "y": 485.16974,
+        "value": 4,
+        "category": 0,
+        "title":"教授",
+        "universe": "南京大学",
+        "awards":"2018年中华医学科技奖二等奖（排名第三），2018年江苏省医学科技奖一等奖（排名第三），2019年江苏省新技术引进奖一等奖（排名第一）",
+        "education":"南京大学学士，硕士和博士",
+        "keyword": [ "肠道免疫","急性胰腺炎","胃癌","intestinal immunity","gastric cancer","acute pancreatitis"],
+        "subjecttype": [ "肿瘤学"],
+        "history" : "南京大学, 副主任医师",
+        "science":{
+          "topic":"Proton pump inhibitor pantoprazole abrogates adriamycin-resistant gastric cancer cell invasiveness via suppression of Akt/GSK-β/β-catenin signaling and epithelial–mesen",
+          "key":["Drug resistance","Invasiveness", "Epithelial 0to mesenchymal transition", "Pantoprazole"],
+        "abstract":"The effect of proton pump inhibitor (PPI) on cancer risk has received much attention recently. In this study, we investigated the mechanism underlying multidrug resistance and the effect of a PPI pantoprazole using an adriamycin-resistant gastric cancer cell model (SGC7901/ADR). Compared with the parental cell line, SGC7901/ADR cells showed reduced proliferation rate, but higher resistance to adriamycin under both anchorage-dependent and -independent conditions. Notably, SGC7901/ADR cells underwent epithelial to mesenchymal transition (EMT) and showed increased migrating and invading capabilities. At molecular level, SGC7901/ADR cells showed strong activation of Wnt/β-catenin signaling pathway compared with parental sensitive cells. Interestingly, we found that a PPI pantoprazole can effectively reverse the aggressiveness and EMT marker expression of SGC7901/ADR cells. Furthermore, pantoprazole treatment resulted in a profound reduction of both total and phosphorylated forms of Akt and GSK-3β, which in turn suppressed the adriamycin-induced Wnt/β-catenin signaling in SGC7901/ADR cells. Taken together, we demonstrate that the aggressive phenotype of adriamycin-resistant SGC7901/ADR cells is mediated by induction of EMT and activation of the canonical Wnt/β-catenin signaling pathway. And for the first time, we show that it is possible to suppress the invasiveness of SGC7901/ADR cells by pantoprazole which targets the EMT and Akt/GSK-3β/β-catenin signaling."
+        }
+      },
+      {
+        "id": "7",
+        "name": "孙琦",
+        "symbolSize": 2.6666666666666665,
+        "x": -382.69568,
+        "y": 475.09113,
+        "value": 4,
+        "category": 0,
+        "title":"教授",
+        "universe": "南京大学学士，硕士和博士",
+        "awards":"南京大学优秀博士学位论文奖",
+        "education":"南京大学",
+        "keyword":null,
+        "subjecttype": [ "生物、医学信息系统与技术","模式识别与数据挖掘","人工智能"],
+        "history" : "南京大学, 副主任医师",
+        "science":[
+      {
+        "topic":"Top 10 algorithms in data mining",
+        "key":["Endoscopic forceps biopsies","Endoscopic submucosal dissection","Gastric epithelial neoplasia"],
+      "abstract":"Differences in pathologic diagnosis between endoscopic forceps biopsy (EFB) and endoscopic submucosal dissection (ESD) for gastric intraepithelial neoplasia (GIN) and early gastric carcinoma (EGC) in Chinese patients remain unknown. The aim of the study was to investigate risk factors for under-diagnosed pathology in initial EFB, compared to final ESD. We reviewed endoscopic and histopathologic findings for tumor location, size, macroscopic pattern, nodularity, erythema, erosion, GIN (low and high grade), and EGC diagnosed with the WHO criteria. Differences in those features between EFB and ESD were compared and risk factors for under-diagnosis by EFB were analyzed. Although concordant in most (74.9 %) cases between EFBs and ESDs, pathological diagnoses in 57 (25.1 %) cases were upgraded in ESDs. Compared to the concordant group, the lesion size a parts per thousand yen2 cm, and depressed and excavated patterns were significantly more frequent in the upgraded group. Further multivariate regression analysis demonstrated the depressed pattern and lesion size a parts per thousand yen2 cm as independent risk factors for upgraded pathology with the odds ratio of 5.778 (95 % confidence interval 2.893-11.542) and 2.535 (95 % confidence interval 1.257-5.111), respectively. Lesion size a parts per thousand yen2.0 cm and the depressed pattern at initial EFB were independent risk factors for pathologic upgrade to advanced diseases in ESD. Therefore, these endoscopic characteristics should be considered together with the initial EFB diagnosis to guide the optimal clinical management of patients with GIN and EGC."
+      }]
+      },
+      {
+        "id": "8",
+        "name": "张伟杰",
+        "symbolSize": 2.6666666666666665,
+        "x": -320.384,
+        "y": 387.17325,
+        "value": 4,
+        "category": 0,
+        "universe": "南京大学",
+        "title":"教授",
+        "awards":"中国电子学会优秀博士学位论文奖",
+        "education":"南京大学学士，硕士和博士",
+        "keyword": [ "肿瘤乏氧","乳腺癌","胃癌侵移","巨噬细胞","肿瘤相关成纤维细胞"],
+        "subjecttype": [ "生物、医学信息系统与技术","模式识别与数据挖掘","人工智能"],
+        "history" : "南京大学副主任医师",
+        "science":{
+          "topic":"Treatment of gallbladder stone with common bile duct stones in the laparoscopic ",
+          "key":null,
+        "abstract":"BACKGROUND: Laparoscopic common bile duct exploration (LCBDE) for stone can be      carried out by either laparoscopic transcystic stone extraction (LTSE) or      laparoscopic choledochotomy (LC). It remains unknown as to which approach is      optimal for management of gallbladder stone with common bile duct stones (CBDS)      in Chinese patients. METHODS: From May 2000 to February 2009, we prospective      treated 346 consecutive patients with gallbladder stones and CBDS with      laparoscopic cholecystectomy and LCBDE. Intraoperative findings, postoperative      complications, postoperative hospital stay and costs were analyzed. RESULTS:      Because of LCBDE failure,16 cases (4.6%) required open surgery. Of 330 successful      LCBDE-treated patients, 237 underwent LTSE and 93 required LC. No mortality      occurred in either group. The bile duct stone clearance rate was similar in both       groups. Patients in the LTSE group were significantly younger and had fewer      complications with smaller, fewer stones, shorter operative time and      postoperative hospital stays, and lower costs, compared to those in the LC group.      Compared with patients with T-tube insertion, patients in the LC group with      primary closure had shorter operative time, shorter postoperative hospital stay,       and lower costs. CONCLUSIONS: In cases requiring LCBDE, LTSE should be the first       choice, whereas LC may be restricted to large, multiple stones. LC with primary      closure without external drainage of the CBDS is as effective and safe as the  "
+        }
+      },
+      {
+        "id": "9",
+        "name": "张敏灵",
+        "symbolSize": 2.6666666666666665,
+        "x": -344.39832,
+        "y": 451.16772,
+        "value": 4,
+        "category": 0,
+        "universe": "南京大学",
+        "title":"教授",
+        "awards":"南京大学优秀博士学位论文奖",
+        "education":"南京大学学士，硕士，博士",
+        "keyword": [ "数据挖掘","机器学习"],
+        "subjecttype": [ "复杂性科学与人工智能理论","知识表示与处理"],
+        "history" : "南京大学教授",
+        "science":{
+          "topic":"COTRADE: Confident co-training with data editing",
+          "key":["Bias-variance decomposition", "co-training"," data editing" ,"machine learning","semi-supervised lea"],
+        "abstract":"Co-training is one of the major semi-supervised learning paradigms that iteratively trains two classifiers on two different views, and uses the predictions of either classifier on the unlabeled examples to augment the training set of the other. During the co-training process, especially in initial rounds when the classifiers have only mediocre accuracy, it is quite possible that one classifier will receive labels on unlabeled examples erroneously predicted by the other classifier. Therefore, the performance of co-training style algorithms is usually unstable. In this paper, the problem of how to reliably communicate labeling information between different views is addressed by a novel co-training algorithm named COTRADE. In each labeling round, COTRADE carries out the label communication process in two steps. First, confidence of either classifier's predictions on unlabeled examples is explicitly estimated based on specific data editing techniques. Secondly, a number of predicted labels with higher confidence of either classifier are passed to the other one, where certain constraints are imposed to avoid introducing undesirable classification noise. Experiments on several real-world datasets across three domains show that COTRADE can effectively exploit unlabeled data to achieve better generalization performance."
+        }
+      },
+      {
+        "id": "10",
+        "name": "吴建鑫",
+        "symbolSize": 2.6666666666666665,
+        "x": -89.34107,
+        "y": 234.56128,
+        "value": 4,
+        "category": 1,
+        "universe": "东南大学优秀博士学位论文奖",
+        "title":"教授",
+        "awards":"丁颖科技奖",
+        "education":"武汉大学学士和硕士，东南大学博士",
+        "keyword": [ "数据挖掘","特征选择","图像分类","流形学习","半监督学习"],
+        "subjecttype": [ "模式识别与数据挖掘","网络与系统安全"],
+        "history" : "东南大学教授",
+        "science":{
+          "topic":"Ensembling neural networks: Many could be better than all",
+          "key":["neural networks", "neural network ensemble", "machine learning" ,"selective ensemble"],
+        "abstract":"Neural network ensemble is a learning paradigm where many neural networks are jointly used to solve a problem. In this paper, the relationship between the ensemble and its component neural networks is analyzed from the context of both regression and classification, which reveals that it may be better to ensemble many instead of all of the neural networks at hand. This result is interesting because at present, most approaches ensemble all the available neural networks for prediction. Then, in order to show that the appropriate neural networks for composing an ensemble can be effectively selected from a set of available neural networks, an approach named GASEN is presented. GASEN trains a number of neural networks at first. Then it assigns random weights to those networks and employs genetic algorithm to evolve the weights so that they can characterize to some extent the fitness of the neural networks in constituting an ensemble. Finally it selects some neural networks based on the evolved weights to make up the ensemble. A large empirical study shows that, compared with some popular ensemble approaches such as Bagging and Boosting, GASEN can generate neural network ensembles with far smaller sizes but stronger generalization ability. Furthermore, in order to understand the working mechanism of GASEN, the bias-variance decomposition of the error is provided in this paper, which shows that the success of GASEN may lie in that it can significantly reduce the bias as well as the variance."
+        }
+      },
+      {
+        "id": "11",
+        "name": "邹晓平",
+        "symbolSize": 66.66666666666667,
+        "x": -87.93029,
+        "y": -6.8120565,
+        "value": 100,
+        "category": 1,
+        "universe": "南京大学",
+        "title":"教授",
+        "awards":"中华医学科技奖二等奖、上海市科技进步一等奖、军队医疗成果二等奖、江苏医学科技奖一等奖、江苏省科学技术奖二等奖、江苏省医学新技术引进奖一等奖、中国医师协会第六届中国医师奖",
+        "education":"南京大学学士，硕士和博士",
+        "keyword": ["急性胰腺炎","肿瘤学","肿瘤综合治疗","肿瘤化学药物治疗"],
+        "subjecttype": [ "生物、医学信息系统与技术","模式识别与数据挖掘","人工智能"],
+        "history" : "南京大学, 主任医师",
+        "science":{
+          "topic":"Inhibition of activated Stat3 reverses drug resistance to chemotherapeutic agents in gastric cancer cells",
+          "key":["Gastric cancer", "Multidrug resistance"," Stat3","Chemotherapy"],
+        "abstract":"Multidrug resistance is a major obstacle in the treatment of gastric cancer. The underlying mechanisms of this phenomenon have not been well understood. Accumulating evidence indicates that Stat3 plays an important role in tumorigenesis of various primary cancers and cancer cell lines by upregulating cell survival proteins and downregulating tumor suppressors. We propose that the Stat3 pathway is also involved in acquired drug resistance of gastric cancer. To test this hypothesis, we investigated the expression and activation of Stat3 in drug resistant gastric cancer cell lines. Western blotting and real-time reverse transcription-PCR determined that Stat3 and its target genes were overactivated and/or overexpressed in drug resistant cells. Inhibition of Stat3 function resulted in significant decreases in cisplatin resistance and enhanced apoptosis in drug resistant cells. The levels of Stat3 target oncogenes such as Bcl-2 and c-Myc were decreased with DPP, a Stat3 inhibitor, treatment, while the expression of tumor suppressor p53 was increased. Interestingly, the vacuolar ATPase, a proton pump which interferes the uptake of therapeutic drugs, was down regulated by Stat3 inhibition. In conclusion, these data supported the hypothesis that interruption of Stat3 signaling could reverse resistance to chemotherapy agents in human gastric cancer cells."
+        }
+      },
+      {
+        "id": "12",
+        "name": "王魏",
+        "symbolSize": 4.495239333333333,
+        "x": -339.77908,
+        "y": -184.69139,
+        "value": 6.742859,
+        "category": 1,
+        "universe": "南京大学",
+        "awards":"江苏省科学技术二等奖",
+        "title":"教授",
+        "education":"南京大学学士，硕士和博士",
+        "keyword": [ "社会化媒体","人工智能","机器学习","分布式系统","网络舆情"],
+        "subjecttype": [ "网络与系统安全","计算机图像视频处理与多媒体技术","模式识别与数据挖掘"],
+        "history" : "南京大学教授",
+        "science":{
+          "topic":"Robust structured subspace learning for data representation",
+          "key":["Data representations","Feature learning","Geometric structure","High level semantics"],
+        "abstract":"This paper presents the top 10 data mining algorithms identified by the IEEE International Conference on Data Mining (ICDM) in December 2006: C4.5, k-Means, SVM, Apriori, EM, PageRank, AdaBoost, kNN, Naive Bayes, and CART. These top 10 algorithms are among the most influential data mining algorithms in the research community. With each algorithm, we provide a description of the algorithm, discuss the impact of the algorithm, and review current and further research on the algorithm.These 10 algorithms cover classification, clustering, statistical learning, association analysis, and link mining, which are all among the most important topics in data mining research and development."
+        }
+      },
+      {
+        "id": "13",
+        "name": "耿新",
+        "symbolSize": 2.6666666666666665,
+        "x": -194.31313,
+        "y": 178.55301,
+        "value": 4,
+        "category": 1,
+        "universe": "东南大学",
+        "title":"教授",
+        "awards":"国家自然科学奖二等奖、国家级教学成果奖一等奖、教育部自然科学奖一等奖等多项",
+        "education":"南京大学学士和硕士，澳大利亚大学博士",
+        "keyword": [ "模式识别","机器学习","计算机视觉"],
+        "subjecttype": [ "复杂性科学与人工智能理论","生物、医学信息系统与技术","人工智能"],
+        "history" : "东南大学教授",
+        "science":{
+          "topic":"Enhanced Visual Analysis for Cluster Tendency Assessment and Data Partitionin",
+          "key":["Clustering; VAT","cluster tendency","spectral embedding","out-of-sample extension"],
+        "abstract":"Visual methods have been widely studied and used in data cluster analysis. Given a pairwise dissimilarity matrix D of a set of n objects, visual methods such as the VAT algorithm generally represent D as an n x n image I((D) over bar) where the objects are reordered to reveal hidden cluster structure as dark blocks along the diagonal of the image. A major limitation of such methods is their inability to highlight cluster structure when D contains highly complex clusters. This paper addresses this limitation by proposing a Spectral VAT algorithm, where D is mapped to D' in a graph embedding space and then reordered to (D) over tilde using the VAT algorithm. A strategy for automatic determination of the number of clusters in I (D) over tilde' is then proposed, as well as a visual method for cluster formation from I((D) over tilde)' based on the difference between diagonal blocks and off-diagonal blocks. A sampling-based extended scheme is also proposed to enable visual cluster analysis for large data sets. Extensive experimental results on several synthetic and real-world data sets validate our algorithms."
+        }
+      },
+      {
+        "id": "14",
+        "name": "詹德川",
+        "symbolSize": 2.6666666666666665,
+        "x": -158.05168,
+        "y": 201.99768,
+        "value": 4,
+        "category": 1,
+        "universe": "南京大学",
+        "title":"教授",
+        "awards":"、江苏省优秀硕士学位论文指导教师荣誉称号",
+        "education":"南京理工大学学士和硕士，中国科学技术大学博士",
+        "keyword": [ "数据挖掘","计算机视觉","机器学习"],
+        "subjecttype": ["计算机科学与技术"],
+        "history" : "南京大学教授",
+        "science":{
+          "topic":"Supervised nonlinear dimensionality reduction for visualiza",
+          "key":["classification","dimensionality reduction","manifold learning" , "supervised learning","visualization"],
+        "abstract":"When performing visualization and classification, people often confront the problem of dimensionality reduction. Isomap is one of the most promising nonlinear dimensionality reduction techniques. However, when Isomap is applied to real-world data, it shows some limitations, such as being sensitive to noise. In this paper, an improved version of Isomap, namely S-Isomap, is proposed. S-Isomap utilizes class information to guide the procedure of nonlinear dimensionality reduction. Such a kind of procedure is called supervised nonlinear dimensionality reduction. In S-Isomap, the neighborhood graph of the input data is constructed according to a certain kind of dissimilarity between data points, which is specially designed to integrate the class information. The dissimilarity has several good properties which help to discover the true neighborhood of the data and, thus, makes S-Isomap a robust technique for both visualization and classification, especially for real-world problems. In the visualization experiments.. S-Isomap is compared with Isomap, LLE, and WeightedIso. The results show that S-Isomap performs the best. In the classification experiments, S-Isomap is used as a preprocess of classification and compared with Isomap, WeightedIso, as well as some other well-established classification methods, including the K-nearest neighbor classifier, BP neural network, J4.8 decision tree, and SVM. The results reveal that S-Isomap excels compared to Isomap and WeightedIso in classification, and it is highly competitive with tho"
+        }
+      },
+      {
+        "id": "15",
+        "name": "陈云霁",
+        "symbolSize": 2.6666666666666665,
+        "x": -127.701546,
+        "y": 242.55057,
+        "value": 4,
+        "category": 1,
+        "universe": "中国科学技术大学",
+        "title":"教授",
+        "awards":"中国青年科技奖和中科院青年科学家奖",
+        "education":"中国科学技术大学学士，硕士博士",
+        "keyword": [ "微体系结构","片上网络","机器学习","多核处理器","神经网络"],
+        "subjecttype": [ "软件理论、软件工程与服务","计算机系统结构与硬件技术","人工智能"],
+        "history" : "中国科学院计算技术研究所, 研究员",
+        "science":{
+          "topic":"TMicroarchitectural design space exploration made fast",
+          "key":["Design space exploration", "Microarchitecture", "Predictive models", "Model tree"],
+        "abstract":"Predictive modeling is an emerging methodology for microarchitectural design space exploration. However, this method suffers from high costs to construct predictive models, especially when unseen programs are employed in performance evaluation. In this paper, we propose a fast predictive model-based approach for microarchitectural design space exploration. The key of our approach is utilizing inherent program characteristics as prior knowledge (in addition to microarchitectural configurations) to build a universal predictive model. Thus, no additional simulation is required for evaluating new programs on new configurations. Besides, due to employed model tree technique, we can provide insights of the design space for early design decisions. Experimental results demonstrate that our approach is comparable to previous approaches regarding their prediction accuracies of performance/energy. Meanwhile, the training time of our approach achieves 7.6-11.8x speedup over previous approaches for each workload. Moreover, the training costs of our approach can be further reduced via instrumentation technique."
+        }
+      },
+      {
+        "id": "16",
+        "name": "吴建盛",
+        "symbolSize": 17.295237333333333,
+        "x": -385.2226,
+        "y": -393.5572,
+        "value": 25.942856,
+        "category": 2,
+        "universe": "南京邮电大学",
+        "title":"教授",
+        "awards":"复旦大学优秀博士学位论文奖",
+        "education":"南昌大学学士、华东师范大学硕士和东南大学博士",
+        "keyword": [ "流形学习","数据挖掘","图像分类","网络舆情"],
+        "subjecttype": [ "网络与系统安全"],
+        "history" : "南京邮电大学计算机学院、软件学院、网络空间安全学院教授",
+        "science":{
+          "topic":"Rapid elongation of CdS nanowire at room temperature",
+          "key":["Semiconducting II-VI materials", "Growth from solutions" ,"Single crystal growth"],
+        "abstract":"The CdS nanowires synthesized by solvothermal route are rapidly elongated in the presence of the ethylenediamine by ultrosonication method at room temperature. Transmission electron microscopy (TEM) analysis reveals that the influential factors on the rapid elongate process are the concentration of ethylenediamine and duration of the ultrosonication reaction. The elongated CdS nanowires are further characterized by UV-vis absorption spectra, which has no apparent difference in the position of the maximum absorption peak comparing with the starting CdS nanowires synthesized by solvothermal method. A mechanism of oriented attachment is proposed to explain the phenomena based on a series of experimental results."
+        }
+      },
+      {
+        "id": "17",
+        "name": "王少尉",
+        "symbolSize": 13.638097333333334,
+        "x": -516.55884,
+        "y": -393.98975,
+        "value": 20.457146,
+        "category": 2,
+        "universe": "南京大学",
+        "awards":"江苏省科学技术二等奖",
+        "title":"教授",
+        "education":"南京大学学士，硕士，博士",
+        "keyword": ["半监督学习","人工智能","数据挖掘"],
+        "subjecttype": ["复杂性科学与人工智能理论"],
+        "history" : "南京大学, 副教授",
+        "science":{
+          "topic":"Multi-instance multi-label learning",
+          "key":["Machine learning","Multi-instance multi-label learning","MIML","Multi-label learning","Multi-instance learning"],
+        "abstract":"In this paper, we propose the MIML (Multi-Instance Multi-Label learning) framework where an example is described by multiple instances and associated with multiple class labels. Compared to traditional learning frameworks, the MIML framework is more convenient and natural for representing complicated objects which have multiple semantic meanings. To learn from MIML examples, we propose the MIMLBOOST and MIMLSVM algorithms based on a simple degeneration strategy, and experiments show that solving problems involving complicated objects with multiple semantic meanings in the MIML framework can lead to good performance. Considering that the degeneration process may lose information, we propose the D-MIMLSVM algorithm which tackles MIMI, problems directly in a regularization framework. Moreover, we show that even when we do not have access to the real objects and thus cannot capture more information from real objects by using the MIML representation, MIML is still useful. We propose the INSDIF and SUBCOD algorithms. INSDIF works by transforming single-instances into the MIML representation for learning, while SUBCOD works by transforming single-label examples into the MIML representation for learning. Experiments show that in some tasks they are able to achieve better performance than learning the single-instances or single-label examples directly."
+        }
+      },
+      {
+        "id": "18",
+        "name": "谭晓阳",
+        "symbolSize": 13.638097333333334,
+        "x": -464.79382,
+        "y": -493.57944,
+        "value": 20.457146,
+        "category": 2,
+        "universe": "南京航空航天大学",
+        "title":"教授",
+        "awards":"江苏省科学技术二等奖",
+        "education":"南京大学学士，硕士，博士",
+        "keyword": [ "数据挖掘","人工智能","机器学习"],
+        "subjecttype": [ "生物、医学信息系统与技术","模式识别与数据挖掘","人工智能"],
+        "history" : "南京大学教授",
+        "science":{
+          "topic":"S-adenosylmethionine inhibits the activated phenotype of human hepatic stellate  cells via Rac1 and matrix metalloproteinases.",
+          "key":["Biological behavior","Hepatic stellate cells","Liver fibrosis","Rac1","S-adenosylmethionine"],
+        "abstract":"OBJECTIVE: To investigate the effects of S-adenosylmethionine (SAM) on the      proliferation, adhesion, migration, invasion and apoptosis of activated human      hepatic stellate cells (HSCs) and to explore the relevant potential mechanisms.      METHODS: Human HSCs LX-2 were cultured with SAM. The proliferation and adhesion      were detected by CCK-8. Cell apoptosis rate were analyzed by flow cytometry, and       cell migration and invasion were tested by the transwell assay. The expression of      Rac1 and MMP-2 was identified by real-time PCR or Western blotting, and activated      Rac1 was detected by GST pull-down assay. The activity of MMP-2 and MMP-9 was      analyzed by substrate zymography. RESULTS: The proliferation of LX-2 cells was      inhibited by SAM, exhibiting a dose-dependent manner. Cell apoptosis rate induced      by SAM was remarkably increased. SAM decreased the adhesion, migration and      invasion of LX-2 cells. The expression and activation of Rac1 in LX-2 cells were       significantly suppressed by SAM. In contrast, the activity of MMP-2 and MMP-9 was      enhanced by SAM. SAM attenuated the up-regulated expression of Smad3/4 and Rac1      induced by TGF-beta1. CONCLUSION: SAM inhibits the proliferation, adhesion,      migration and invasion of LX-2 cells in vitro probably via attenuating the      expression and activation of Rac1 and up-regulating MMP-2 and MMP-9 expression,      which possibly provide a molecular basis for potential application of SAM in the therapy of liver fibrosis."
+        }
+      },
+      {
+        "id": "19",
+        "name": "陆汝钤",
+        "symbolSize": 13.638097333333334,
+        "x": -515.1624,
+        "y": -456.9891,
+        "value": 20.457146,
+        "category": 2,
+        "universe": "耶拿大学",
+        "title":"教授",
+        "awards":"吴文俊人工智能最高成就奖",
+        "education":"德国耶拿大学数学系本科",
+        "keyword": ["神经网络","神经计算","人工智能","机器学习"],
+        "subjecttype": ["软件理论、软件工程与服务","网络与系统安全","人工智能"],
+        "history" : "中国科学院数学与系统科学研究院, 研究员",
+        "science":{
+          "topic":"An Optimized Majority Logic Synthesis Methodology for Quantum-Dot Cellular Automata",
+          "key":null,
+        "abstract":"Quantum-dot cellular automata (QCA) has been widely considered as a replacement candidate for complementary metal-oxide semiconductor (CMOS). The fundamental logic device in QCA is the majority gate. In this paper, we propose an efficient methodology for majority logic synthesis of arbitrary Boolean functions. We prove that our method provides a minimal majority expression and an optimal QCA layout for any given three-variable Boolean function. In order to obtain high-quality decomposed Boolean networks, we introduce a new decomposition scheme that can decompose all Boolean networks efficiently. Furthermore, our method removes all the redundancies that are produced in the process of converting a decomposed network into amajority network. In existing methods, however, these redundancies are not considered. We have built a majority logic synthesis tool based on our method and several existing logic synthesis tools. Experiments with 40 multiple-output benchmarks indicate that, compared to existing methods, 37 benchmarks are optimized by our method, up to 31.6%, 78.2%, 75.5%, and 83.3% reduction in level count, gate count, gate input count, and inverter count, respectively, is possible with the average being 4.7%, 14.5%, 13.3%, and 26.4%, respectively. We have also implemented the QCA layouts of 10 benchmarks by using our method. Results indicate that, compared to existing methods, up to 33.3%, 76.7%, and 75.5% reduction in delay, cell count, and area, respectively, is possible with the average being 8.1%, 28.9%, and 29.0%, respectively."
+        }
+      },
+      {
+        "id": "20",
+        "name": "牟廉明",
+        "symbolSize": 13.638097333333334,
+        "x": -408.12122,
+        "y": -464.5048,
+        "value": 20.457146,
+        "category": 2,
+        "universe": "内江师范学院",
+        "title":"教授",
+        "awards":"全国大学生数学建模竞赛、全国电工杯数学建模、五一数学建模联赛中获得国际二等奖、全国二等奖",
+        "education":"内江师范学院学士，南京理工大学硕士，博士",
+        "keyword": [ "特征选择","特征提取","多核处理器","模式识别"],
+        "subjecttype": [ "计算机系统结构与硬件技术","模式识别与数据挖掘","人工智能"],
+        "history" : "内江师范学院, 教授",
+        "science":{
+          "topic":"Formation of Ag2S nanowires and Ag2S/CdS heterostructures via simple solvothermal route",
+          "key":["Nanostructures","Crystal growth","CdS nanowire","Ag2S"],
+        "abstract":"In our present work, Ag2S nanowires and Ag2S/CdS heterostructures have been successfully prepared in anhydrous ethanol through a simple solvothermal route. From the transmission electron microscopy (TEM) analysis, it is found that the factors influenced the final product are the concentration of Ag+, reaction temperature, reaction time, and solvent. Ag2S nanowires are formed by complete Ag+ cation exchange. Because of the selectivity for partial cation exchange, the reaction starts preferentially at the ends of the CdS nanowires to produce novel Ag2S/CdS heterostructures. In addition, as the two end facets of wurtzite CdS nanowires are crystallographically nonequivalent, the produced Ag2S/CdS heterostructures are asymmetric."
+        }
+      }
+    ]
+   
+}

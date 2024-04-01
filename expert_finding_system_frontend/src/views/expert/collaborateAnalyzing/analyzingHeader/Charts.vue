@@ -36,16 +36,16 @@ onMounted(()=>{
       text: '研究兴趣分布'
     },
     legend: {
-      data: ['我', 'Raghu Machiraju']
+      data: ['我', '高尉']
     },
     radar: {
       // shape: 'circle',
       indicator: [
-        { name: 'social network', max: 6500 },
-        { name: 'dynamic network analysis', max: 16000 },
-        { name: 'computational biology', max: 30000 },
-        { name: 'cancer', max: 38000 },
-        { name: 'social influence', max: 52000 }
+        { name: '深度学习', max: 6500 },
+        { name: '人工智能', max: 16000 },
+        { name: '复杂性科学与人工智能理论', max: 30000 },
+        { name: '数据挖掘', max: 38000 },
+        { name: '机器学习', max: 52000 }
       ]
     },
     series: [
@@ -58,8 +58,8 @@ onMounted(()=>{
             name: '我'
           },
           {
-            value: [3400, 6500, 28000, 26000, 15000, 21000],
-            name: 'Raghu Machiraju'
+            value: [5000, 14000, 28000, 26000, 42000, 21000],
+            name: '高尉'
           }
         ]
       }

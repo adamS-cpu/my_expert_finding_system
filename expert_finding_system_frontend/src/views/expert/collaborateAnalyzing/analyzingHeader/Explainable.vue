@@ -22,7 +22,7 @@
           <div class="footer-item">
             <span>最大的共同兴趣是</span>
             <span class="green">
-              social network
+              机器学习
               <el-icon>
                 <CaretTop />
               </el-icon>
@@ -51,9 +51,9 @@
         </el-statistic>
         <div class="statistic-footer">
           <div class="footer-item">
-            <span>可能因为Tony Pan而互相认识</span>
+            <span>可能因为詹德川而互相认识</span>
             <span class="red">
-              Tony Pan
+              詹德川
               <el-icon>
                 <CaretBottom />
               </el-icon>
@@ -84,7 +84,7 @@
           <div class="footer-item">
             <span>良好的合作背景知识</span>
             <span class="green">
-              computational biology and dynamic network analysis
+              机器学习理论
               <el-icon>
                 <CaretTop />
               </el-icon>

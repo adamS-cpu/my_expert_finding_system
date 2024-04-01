@@ -1,11 +1,22 @@
 <script setup lang="ts">
-  import {ref} from 'vue'
+  import {ref, computed} from 'vue'
   import  {useRoute} from 'vue-router'
   import {useExpertStore} from "@/store/modules/expert";
-  const route = useRoute()
-  const expertActive = ref()
-  const {expertInfo} = useExpertStore()
-  expertActive.value = route.path
+  // const route = useRoute()
+  // const expertActive = ref()
+  // const {expertInfo} = useExpertStore()
+  // expertActive.value = route.path
+  const route = useRoute();
+  const { expertInfo } = useExpertStore();
+
+  // 使用计算属性来判断导航项是否应该激活
+  const expertActive = computed(() => route.path);
+
+  // 检查给定路径是否与当前路由匹配
+  const isActive = (path) => {
+    return expertActive.value === path;
+  };
+
 </script>
 
 <template>
@@ -20,30 +31,30 @@
     <div class="expert-component-left">
       <ul class="expert-nav">
         <template v-if="expertInfo.nickname != ''">
-          <li class="expert-nav-item" :class="{'expert-active': expertActive='/expert/index'}">
+          <li class="expert-nav-item" :class="{'expert-active': isActive('/index')}">
             <router-link to="/index">发现</router-link>
           </li>
 
-          <li class="expert-nav-item" :class="{'expert-active': expertActive='/expert/contacts'}">
+          <li class="expert-nav-item" :class="{'expert-active': isActive('/expert/dynamic')}">
             <router-link to="/expert/dynamic">好友动态</router-link>
           </li>
 
-          <li class="expert-nav-item" :class="{'expert-active': expertActive='/expert/MyInfo'}">
+          <li class="expert-nav-item" :class="{'expert-active': isActive('/expert/myInfo')}">
             <router-link to="/expert/myInfo">我的主页</router-link>
           </li>
 
-          <li class="expert-nav-item" :class="{'expert-active': expertActive='/expert/Information'}">
+          <li class="expert-nav-item" :class="{'expert-active': isActive('/expert/message')}">
             <router-link to="/expert/message">消息中心</router-link>
           </li>
 
-          <li class="expert-nav-item" :class="{'expert-active': expertActive='/expert/analyzing'}">
+          <li class="expert-nav-item" :class="{'expert-active': isActive('/expert/analyzing')}">
             <router-link to="/expert/analyzing">合作分析</router-link>
           </li>
         </template>
 
         <!--未登录 start-->
         <template v-else>
-          <li class="expert-nav-item" :class="{'expert-active': expertActive='/index'}">
+          <li class="expert-nav-item" :class="{'expert-active': isActive('/index')}">
             <router-link to="/index">发现</router-link>
           </li>
         </template>
@@ -56,11 +67,12 @@
       <ul class="expert-nav">
         <!--已登录内容 start-->
         <template v-if="expertInfo.nickname != '' ">
-          <li class="expert-nav-item" :class="{'expert-active': expertActive='/account/userInfo'}">
-            <router-link to="/account/userInfo">个人中心</router-link>
+          <li class="expert-nav-item" :class="{'expert-active': isActive('/expert/selfInform')}">
+            <!-- <router-link to="/account/userInfo">个人中心</router-link> -->
+            <router-link to="/expert/selfInform">个人中心</router-link>
           </li>
 
-          <li class="expert-nav-item" :class="{'expert-active': expertActive='/account/exitAccount'}">
+          <li class="expert-nav-item" :class="{'expert-active': isActive('/account/exitAccount')}">
             <router-link to="/account/exitAccount">退出登录</router-link>
           </li>
         </template>
@@ -86,7 +98,7 @@
 
 <style scoped>
 .expert-header{
-  height: 75px;
+  height: 68px;
   width: 100%;
   border-bottom: 1px solid #404553;
   background-color: #083545;
@@ -177,5 +189,19 @@
   background-color: #5fe878;
   transition: all .2s;
   -webkit-transition: all .2s;
+}
+
+.expert-nav .expert-nav-item.expert-active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff; /* 横线的颜色 */
+}
+.expert-nav .expert-nav-item {
+  position: relative;
+  /* 其他样式保持不变 */
 }
 </style>

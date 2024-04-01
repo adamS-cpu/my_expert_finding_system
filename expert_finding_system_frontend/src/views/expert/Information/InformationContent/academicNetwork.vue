@@ -20,7 +20,7 @@ onMounted(() => {
 
   const option = {
     title: {
-      text: 'academicNetwork',
+      // text: 'academicNetwork',
       subtext: '',
       top: 'top',
       left: 'left',

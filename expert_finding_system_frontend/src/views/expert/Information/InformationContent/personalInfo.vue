@@ -17,15 +17,15 @@
 </template>
 <script lang="ts" setup>
 import { reactive } from "vue";
-  const teacher = reactive({
-      name: '张三',
-      university: '苏州大学',
-      title: '创始人、学者网\n二级教授，国务院政府特殊津贴专家\n教育部新世纪优秀人才，广东特支计划教学名师',
-      research: '数据智能与社交网络',
-      education: '武汉大学学士和硕士，中国科学技术大学博士',
-      awards: '丁颖科技奖、宝钢教育奖等多个奖项',
-      tags: ['计算机科学', '人工智能', '数据分析']
-    });
+const teacher = reactive({
+    name: '张三',
+    university: '苏州大学',
+    title: '创始人、学者网\n二级教授，国务院政府特殊津贴专家\n教育部新世纪优秀人才，广东特支计划教学名师',
+    research: '数据智能与社交网络',
+    education: '武汉大学学士和硕士，中国科学技术大学博士',
+    awards: '丁颖科技奖、宝钢教育奖等多个奖项',
+    tags: ['计算机科学', '人工智能', '数据分析']
+});
 
 </script>
 

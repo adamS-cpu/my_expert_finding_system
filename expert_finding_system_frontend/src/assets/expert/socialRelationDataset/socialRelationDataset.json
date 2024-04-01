@@ -333,16 +333,16 @@
     ],
     "categories": [
       {
-        "name":"User"
+        "name":"当前用户"
       },
       {
-        "name": "followed"
+        "name": "关注的人"
       },
       {
-        "name": "Potential Partner"
+        "name": "潜在合作者"
       },
       {
-        "name":"Collaborator"
+        "name":"合作者"
       }
     ]
   }

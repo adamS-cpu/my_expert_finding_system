@@ -52,7 +52,7 @@ const projects = reactive([
 
 
 <style scoped>
-  .paper-list {
+.paper-list {
   font-family: 'Arial', sans-serif; /* 论文列表字体 */
 }
 

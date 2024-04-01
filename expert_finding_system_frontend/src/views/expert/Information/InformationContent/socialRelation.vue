@@ -14,7 +14,7 @@ onMounted(() => {
 
   const option = {
     title: {
-      text: 'socialRelation',
+      // text: 'socialRelation',
       subtext: '',
       top: 'top',
       left: 'left',
@@ -32,7 +32,7 @@ onMounted(() => {
         layout: 'force',
         data: socialRelationDataset.nodes.map((node) => ({
           ...node,
-          symbolSize: 20,
+          symbolSize: 40,
         })),
         links: socialRelationDataset.links,
         categories: socialRelationDataset.categories,
@@ -41,7 +41,7 @@ onMounted(() => {
           position: 'left',
         },
         force: {
-          repulsion: 200,
+          repulsion: 3000,
         },
       },
     ],

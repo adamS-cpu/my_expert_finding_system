@@ -259,16 +259,16 @@
   ],
   "categories": [
     {
-      "name": "User"
+      "name": "当前用户"
     },
     {
-      "name": "Collaborator"
+      "name": "发表论文"
     },
     {
-      "name":"Paper"
+      "name":"合作者"
     },
     {
-      "name":"Periodical"
+      "name":"科研机构"
     }
   ]
 }

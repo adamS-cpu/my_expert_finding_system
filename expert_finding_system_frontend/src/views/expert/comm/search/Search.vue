@@ -1,14 +1,21 @@
 <script setup lang="ts">
-
+  import { ref } from 'vue';
+  import { useRouter } from 'vue-router';
+  const router = useRouter(); // 使用 useRouter 获取路由实例
+  const searchText = ref('');
+  function onSearch() {
+  // 使用编程式导航跳转到搜索结果页面，并传递搜索关键字作为查询参数
+  router.push({ path: '/search-results', query: { searchQuery: searchText.value }});
+}
 </script>
 
 <template>
 <div class ="search">
-  <el-form>
+  <el-form @submit.prevent="onSearch">
     <div class ="input-search">
       <div class = "search-expert">
-        <el-input class= "el-input" placeholder="以专利、论文、姓名检索你感兴趣的专家..."></el-input>
-        <el-button color="#5e6eba" class="expert-btn" icon="Search" size="large"></el-button>
+        <el-input v-model="searchText" class= "el-input" placeholder="以专利、论文、姓名检索你感兴趣的专家..."></el-input>
+        <el-button @click="onSearch" color="#5e6eba" class="expert-btn" icon="Search" size="large"></el-button>
       </div>
     </div>
   </el-form>

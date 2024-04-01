@@ -106,5 +106,23 @@ defineExpose({user});
     align-items: stretch;
     height: 100%;
   }
+  .paper-list {
+    font-family: 'Arial', sans-serif; /* 论文列表字体 */
+  }
+
+  .book-list {
+    font-family: 'Georgia', serif; /* 著作列表字体 */
+  }
+
+  .project-list {
+    font-family: 'Verdana', sans-serif; /* 项目列表字体 */
+  }
+
+  .paper-info,
+  .book-info,
+  .project-info {
+    font-size: 16px; /* 设置内容字体大小 */
+    margin-bottom: 8px; /* 设置内容间距 */
+  }
 
 </style>

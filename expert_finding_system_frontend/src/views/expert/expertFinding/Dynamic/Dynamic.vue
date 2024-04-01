@@ -27,7 +27,7 @@ onMounted(()=>{
   <!--中间部分-->
   <div>
     <!--公告板-->
-    <div class="box">🔔 {{billboard}}</div>
+    <div class="box">🔔</div>
 
     <div class="columns">
       <div class="column is-three-quarters">

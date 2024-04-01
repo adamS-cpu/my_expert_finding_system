@@ -61,7 +61,6 @@ export default {
               <el-tag
                   :key="tag"
                   v-for="tag in user_form.tagList"
-                  closable
                   :disable-transitions="false"
                   @close="handleClose(tag)"
               >
@@ -86,7 +85,6 @@ export default {
               <el-tag
                   :key="tag"
                   v-for="tag in collaborator_form.tagList"
-                  closable
                   :disable-transitions="false"
                   @close="handleClose(tag)"
               >

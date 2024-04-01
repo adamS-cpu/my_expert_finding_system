@@ -84,7 +84,7 @@
           <div class="footer-item">
             <span>良好的合作背景知识</span>
             <span class="green">
-              机器学习理论
+              贝叶斯分类和多目标学习
               <el-icon>
                 <CaretTop />
               </el-icon>
@@ -99,7 +99,7 @@
       </div>
     </el-col>
   </el-row>
-  <div id="mainofPie" style="width: 600px;height:400px;"></div>
+  <div id="mainofPie" style="width: 600px;height:400px; margin-top: 10px"></div>
 </template>
 
 <script lang="ts" setup>
@@ -144,19 +144,19 @@ onMounted(()=>{
   option = {
     title: [
       {
-        text: '可解释性分析'
+        text: '匹配得分可视化'
       }
     ],
     polar: {
-      radius: [40, '90%']
+      radius: [70, '70%']
     },
     radiusAxis: {
-      max: 4
+      max: 1
     },
     angleAxis: {
       type: 'category',
       data: ['研究兴趣相似性得分', '共同好友得分', '专业知识互补性得分'],
-      startAngle: 50
+      startAngle: 60
     },
     tooltip: {},
     series: {

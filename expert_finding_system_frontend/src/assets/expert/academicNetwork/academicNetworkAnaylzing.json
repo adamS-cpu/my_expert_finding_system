@@ -1,0 +1,543 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "name": "周志华",
+      "symbolSize": 55,
+      "x": -1000,
+      "y": 100,
+      "value": 0,
+      "category": 0
+    },
+    {
+      "id": "2",
+      "name": "Andrew Ng",
+      "symbolSize": 10,
+      "x": 0,
+      "y": -789.012,
+      "value": 2,
+      "category": 1
+    },
+    {
+      "id": "3",
+      "name": "Geoffrey Hinton",
+      "symbolSize": 10,
+      "x": 0,
+      "y": 321.654,
+      "value": 3,
+      "category": 1
+    },
+    {
+      "id": "4",
+      "name": "Yann LeCun",
+      "symbolSize": 10,
+      "x": 0,
+      "y": -321.987,
+      "value": 4,
+      "category": 1
+    },
+    {
+      "id": "5",
+      "name": "Fei-Fei Li",
+      "symbolSize": 10,
+      "x": 0,
+      "y": 987.654,
+      "value": 5,
+      "category": 1
+    },
+    {
+      "id": "6",
+      "name": "詹德川",
+      "symbolSize": 32,
+      "x": 0,
+      "y": -123.456,
+      "value": 6,
+      "category": 1
+    },
+    {
+      "id": "7",
+      "name": "A Neural Probabilistic Language Model",
+      "symbolSize": 10,
+      "x": -500,
+      "y": 456.789,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "8",
+      "name": "Deep Residual Learning for Image Recognition",
+      "symbolSize": 10,
+      "x": -500,
+      "y": -234.567,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "9",
+      "name": "Generative Adversarial Networks",
+      "symbolSize": 10,
+      "x": -500,
+      "y": 890.234,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "10",
+      "name": "Attention Is All You Need",
+      "symbolSize": 10,
+      "x": -500,
+      "y": -987.654,
+      "value": 10,
+      "category": 2
+    },
+    {
+      "id": "11",
+      "name": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+      "symbolSize": 16,
+      "x": -600,
+      "y": 500.210,
+      "value": 11,
+      "category": 2
+    },
+    {
+      "id": "12",
+      "name": "Transformer Networks",
+      "symbolSize": 10,
+      "x": -500,
+      "y": -789.012,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "13",
+      "name": "Recurrent Neural Networks",
+      "symbolSize": 10,
+      "x": -500,
+      "y": 987.654,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "14",
+      "name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "symbolSize": 10,
+      "x": 500,
+      "y": -876.543,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "15",
+      "name": "ACM Transactions on Graphics",
+      "symbolSize": 10,
+      "x": 500,
+      "y": 432.109,
+      "value": 15,
+      "category": 2
+    },
+    {
+      "id": "16",
+      "name": "Journal of Artificial Intelligence Research",
+      "symbolSize": 10,
+      "x": 500,
+      "y": -321.098,
+      "value": 16,
+      "category": 2
+    },
+    {
+      "id": "17",
+      "name": "IEEE Transactions on Visualization and Computer Graphics",
+      "symbolSize": 10,
+      "x": 500,
+      "y": 765.432,
+      "value": 17,
+      "category": 2
+    },
+    {
+      "id": "18",
+      "name": "ACM Transactions on Computer-Human Interaction",
+      "symbolSize": 10,
+      "x": 500,
+      "y": -543.210,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "19",
+      "name": "高尉",
+      "symbolSize": 50,
+      "x": 1000,
+      "y": -343.210,
+      "value": 19,
+      "category": 0
+    },
+    {
+      "id": "20",
+      "name": "Bi-CryptoNets: Leveraging Different-Level Privacy For Encrypted Inference(Preprint)",
+      "symbolSize": 17,
+      "x": 400,
+      "y": -500,
+      "value": 20,
+      "category": 2
+    },
+    {
+      "id": "21",
+      "name": "南京大学",
+      "symbolSize": 36,
+      "x": 200,
+      "y": -900,
+      "value": 21,
+      "category": 3
+    },
+    {
+      "id": "22",
+      "name": "111",
+      "symbolSize": 24,
+      "x": 150,
+      "y": 400,
+      "value": 22,
+      "category": 2
+    },
+    {
+      "id": "23",
+      "name": "1111",
+      "symbolSize": 14,
+      "x": 150,
+      "y": 400,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "24",
+      "name": "机器学习",
+      "symbolSize": 50,
+      "x": -480,
+      "y": 140,
+      "value": 24,
+      "category": 4
+    },
+    {
+      "id": "25",
+      "name": "贝叶斯分类",
+      "symbolSize": 28,
+      "x": -390,
+      "y": -370,
+      "value": 25,
+      "category": 4
+    },
+    {
+      "id": "26",
+      "name": "多目标优化",
+      "symbolSize": 34,
+      "x": 240,
+      "y": 670,
+      "value": 26,
+      "category": 4
+    },
+    {
+      "id": "27",
+      "name": "隐私保护",
+      "symbolSize": 20,
+      "x": 120,
+      "y": 170,
+      "value": 27,
+      "category": 4
+    },
+    {
+      "id": "28",
+      "name": "复杂性科学与人工智能理论",
+      "symbolSize": 25,
+      "x": 190,
+      "y": -300,
+      "value": 28,
+      "category": 4
+    },
+    {
+      "id": "29",
+      "name": "tag1",
+      "symbolSize": 17,
+      "x": 50,
+      "y": -700,
+      "value": 29,
+      "category": 4
+    },
+    {
+      "id": "30",
+      "name": "tag2",
+      "symbolSize": 12,
+      "x": -150,
+      "y": 630,
+      "value": 30,
+      "category": 4
+    },
+    {
+      "id": "31",
+      "name": "tag3",
+      "symbolSize": 14,
+      "x": -120,
+      "y": -300,
+      "value": 31,
+      "category": 4
+    }
+
+  ],
+  "links": [
+    {
+      "source": "1",
+      "target": "7"
+    },
+    {
+      "source": "1",
+      "target": "8"
+    },
+    {
+      "source": "1",
+      "target": "9"
+    },
+    {
+      "source": "1",
+      "target": "10"
+    },
+    {
+      "source": "1",
+      "target": "11"
+    },
+    {
+      "source": "1",
+      "target": "12"
+    },
+    {
+      "source": "1",
+      "target": "13"
+    },
+    {
+      "source": "2",
+      "target": "7"
+    },
+    {
+      "source": "3",
+      "target": "8"
+    },
+    {
+      "source": "4",
+      "target": "9"
+    },
+    {
+      "source": "5",
+      "target": "10"
+    },
+    {
+      "source": "6",
+      "target": "11"
+    },
+    {
+      "source": "5",
+      "target": "12"
+    },
+    {
+      "source": "4",
+      "target": "13"
+    },
+    {
+      "source": "7",
+      "target": "14"
+    },
+    {
+      "source": "8",
+      "target": "15"
+    },
+    {
+      "source": "9",
+      "target": "16"
+    },
+    {
+      "source": "10",
+      "target": "17"
+    },
+    {
+      "source": "11",
+      "target": "18"
+    },
+    {
+      "source": "12",
+      "target": "15"
+    },
+    {
+      "source": "13",
+      "target": "14"
+    },
+    {
+      "source": "19",
+      "target": "21"
+    },
+    {
+      "source": "1",
+      "target": "21"
+    },
+    {
+      "source": "6",
+      "target": "11"
+    },
+    {
+      "source": "6",
+      "target": "22"
+    },
+    {
+      "source": "19",
+      "target": "22"
+    },
+    {
+      "source": "5",
+      "target": "17"
+    },
+    {
+      "source": "3",
+      "target": "12"
+    },
+    {
+      "source": "19",
+      "target": "20"
+    },
+    {
+      "source": "19",
+      "target": "20"
+    },
+    {
+      "source": "2",
+      "target": "21"
+    },
+    {
+      "source": "19",
+      "target": "16"
+    },
+    {
+      "source": "26",
+      "target": "22"
+    },
+    {
+      "source": "26",
+      "target": "16"
+    },
+    {
+      "source": "26",
+      "target": "12"
+    },
+    {
+      "source": "29",
+      "target": "11"
+    },
+    {
+      "source": "29",
+      "target": "16"
+    },
+    {
+      "source": "31",
+      "target": "22"
+    },
+    {
+      "source": "11",
+      "target": "24"
+    },
+    {
+      "source": "25",
+      "target": "12"
+    },
+    {
+      "source": "25",
+      "target": "16"
+    },
+    {
+      "source": "25",
+      "target": "10"
+    },
+    {
+      "source": "22",
+      "target": "24"
+    },
+    {
+      "source": "10",
+      "target": "24"
+    },
+    {
+      "source": "14",
+      "target": "24"
+    },
+    {
+      "source": "16",
+      "target": "24"
+    },
+    {
+      "source": "28",
+      "target": "22"
+    },
+    {
+      "source": "28",
+      "target": "16"
+    },
+    {
+      "source": "28",
+      "target": "15"
+    },
+    {
+      "source": "31",
+      "target": "10"
+    },
+    {
+      "source": "30",
+      "target": "10"
+    },
+    {
+      "source": "30",
+      "target": "13"
+    },
+    {
+      "source": "19",
+      "target": "15"
+    },
+    {
+      "source": "19",
+      "target": "17"
+    },
+    {
+      "source": "6",
+      "target": "10"
+    },
+    {
+      "source": "6",
+      "target": "20"
+    },
+    {
+      "source": "15",
+      "target": "17"
+    },
+    {
+      "source": "12",
+      "target": "17"
+    },
+    {
+      "source": "10",
+      "target": "17"
+    },
+    {
+      "source": "15",
+      "target": "30"
+    }
+  ],
+  "categories": [
+    {
+      "name": "分析目标"
+    },
+    {
+      "name": "学者"
+    },
+    {
+      "name": "论文"
+    },
+    {
+      "name":"研究机构"
+    },
+    {
+      "name":"研究主题"
+    }
+  ]
+}

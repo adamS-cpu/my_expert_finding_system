@@ -77,7 +77,18 @@ export const staticRouter = [
         isMenu: false,
         component: ()=> import('@/views/expert/index/index.vue')
     },
-
+    {
+        path: '/search-results',
+        name: 'SearchResults',
+        component: ()=> import('@/views/expert/index/SearchResults.vue')
+        // component: SearchResults,
+    },
+    {
+        path: '/scholar/:id',
+        name: 'ScholarDetails',
+        component: ()=> import('@/views/expert/index/ScholarDetails.vue')
+        // component: SearchResults,
+    },
     {
         // 后台登录是后台管理系统的模板，我这边没有动它
         path: '/endLogin',

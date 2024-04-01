@@ -12,8 +12,8 @@ import Similar from "@/views/expert/collaborateAnalyzing/analyzingRecommendation
     <!--最近关注-->
     <RecentFollow/>
 
-    <!--精准推荐-->
-    <PreciseRecommendation/>
+<!--    &lt;!&ndash;精准推荐&ndash;&gt;-->
+<!--    <PreciseRecommendation/>-->
     <!--相似推荐-->
     <Similar/>
   </section>

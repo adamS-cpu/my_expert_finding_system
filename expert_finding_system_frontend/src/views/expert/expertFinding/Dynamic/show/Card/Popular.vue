@@ -22,17 +22,15 @@ onMounted(()=>{
       <template #header>
         🥂 热门推荐
       </template>
-      <div v-for="item in userList" :key="item" class="text item">
+      <div class="text item">
         <el-card style="height: 80px" shadow="never">
           <div class="columns">
-            <div class="column is-one-quarter" >
-              <router-link :to="{path:'expert/user', query:{id:item.id}}">
-                <img src= "@/assets/expert/image/example-user-icon-small.png" style="border: 1px solid lightgray; border-radius: 10px;" alt="user-icon" />
-              </router-link>
+            <div class="column is-one-quarter">
+              <div class="avatar">李</div>
             </div>
-            <div class="column" >
-                <p style="font-size: 16px;"> {{item.username}}</p>
-                <p style="font-size: 12px;"> {{item.organization}} </p>
+            <div class="column">
+              <p style="font-size: 16px;">李伟</p>
+              <p style="font-size: 12px;">Soochow University</p>
             </div>
             <div class="column is-one-third">
               <el-button type="warning" round>关注</el-button>
@@ -40,10 +38,38 @@ onMounted(()=>{
           </div>
         </el-card>
       </div>
+
+<div class="text item">
+  <el-card style="height: 80px" shadow="never">
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <div class="avatar">张</div>
+      </div>
+      <div class="column">
+        <p style="font-size: 16px;">张力</p>
+        <p style="font-size: 12px;">Soochow University</p>
+      </div>
+      <div class="column is-one-third">
+        <el-button type="warning" round>关注</el-button>
+      </div>
+    </div>
+  </el-card>
+</div>
     </el-card>
   </div>
 </template>
 
 <style scoped>
-
+  .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  font-weight: bold;
+}
 </style>

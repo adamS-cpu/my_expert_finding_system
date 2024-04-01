@@ -25,7 +25,7 @@ const onChange1 = (status: boolean) => {
           <div class="columns">
 
             <div class="column is-three-quarters">
-              你与李四有着共同的研究兴趣
+              你与高尉有着共同的研究兴趣
             </div>
             <div class="column">
               <el-button type="primary" round>查看他在这些领域的论文</el-button>
@@ -34,7 +34,7 @@ const onChange1 = (status: boolean) => {
         </template>
         <div class="flex gap-2">
           <el-check-tag checked>机器学习</el-check-tag>
-          <el-check-tag :checked="checked" @change="onChange">社交网络</el-check-tag>
+          <el-check-tag :checked="checked" @change="onChange">数据挖掘</el-check-tag>
         </div>
       </el-card>
 
@@ -43,7 +43,7 @@ const onChange1 = (status: boolean) => {
           <div class="columns">
 
             <div class="column is-three-quarters">
-              李四所独有的研究方向
+              高尉所独有的研究方向
             </div>
             <div class="column">
               <el-button type="primary" round>查看他在这些领域的论文</el-button>
@@ -51,8 +51,8 @@ const onChange1 = (status: boolean) => {
           </div>
         </template>
         <div class="flex gap-2">
-          <el-check-tag checked>医学信息学</el-check-tag>
-          <el-check-tag :checked="checked1" @change="onChange1">药理学</el-check-tag>
+          <el-check-tag checked>复杂性科学与人工智能理论</el-check-tag>
+          <!-- <el-check-tag :checked="checked1" @change="onChange1">药理学</el-check-tag> -->
         </div>
       </el-card>
 

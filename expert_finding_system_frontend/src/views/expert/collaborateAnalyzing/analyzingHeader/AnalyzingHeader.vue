@@ -6,23 +6,23 @@ export default {
   data() {
     return {
       user_form: {
-        icon: 'Z',
-        name: 'Zhi-Hua Zhou',
-        org: 'Nanjing University',
+        icon: '周',
+        name: '周志华',
+        org: '南京大学',
         tagList: [
-          'Artificial Intelligence',
-           'Machine Learning',
-          'Data Mining',
+          '数据挖掘',
+           '人工智能',
+          '机器学习',
         ]
       },
       collaborator_form: {
-        icon: 'Z',
-        name: 'Zhi-Hua Zhou',
-        org: 'Nanjing University',
+        icon: '高',
+        name: '高尉',
+        org: '南京大学',
         tagList: [
-          'Artificial Intelligence',
-          'Machine Learning',
-          'Data Mining',
+          '复杂性科学与人工智能理论',
+          '机器学习',
+          '数据挖掘',
         ]
       },
     }

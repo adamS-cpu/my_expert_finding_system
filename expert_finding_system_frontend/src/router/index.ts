@@ -22,6 +22,11 @@ export const staticRouter = [
         isMenu: false,
         children: [
             {
+                path:'setting',
+                name:'Setting',
+                component: ()=> import('@/views/expert/personalInformation/registerSetting.vue')
+            },
+            {
                 path: 'dynamic',
                 name: 'Dynamic',
                 meta: {

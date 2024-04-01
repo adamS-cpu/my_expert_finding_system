@@ -35,6 +35,11 @@ export const staticRouter = [
                 component: ()=> import('@/views/expert/personalInformation/personalInformation.vue')
             },
             {
+                path:'Message',
+                name:'Message',
+                component: ()=> import('@/views/expert/MyMessage/Message.vue')
+            },
+            {
                 path:'changeCode',
                 name:'ChangeCode',
                 component: ()=> import('@/views/expert/changeCode/changeCode.vue')

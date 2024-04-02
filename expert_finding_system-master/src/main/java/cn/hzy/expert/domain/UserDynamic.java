@@ -43,4 +43,7 @@ public class UserDynamic extends BaseEntity {
     @Column(name="field_name", nullable =false)
     private String field_name;
 
+    @Column(name="venue", nullable =false)
+    private String venue;
+
 }

@@ -172,7 +172,7 @@ const router = createRouter({
 })
 
 // 设置白名单
-const whiteList = ['/expert/login','/expert/register', '/expert/index', '/endLogin']
+const whiteList = ['/expert/login','/expert/register', '/endLogin','/index']
 // 路由拦截守卫
 router.beforeEach(async (to,from,next)=> {
     // 1.Nprogress 开始
@@ -200,7 +200,8 @@ router.beforeEach(async (to,from,next)=> {
                 next()
             // 未登录，跳转到前台登录页
             }else{
-                return next({path: `/account/login?redirect=${to.path}`,replace:true})
+                //return next({path: `/account/login?redirect=${to.path}`,replace:true})
+                return next({path: `/expert/login?redirect=${to.path}`,replace:true})
             }
         }else {
             // 7.判断是否有token，没有重定向login
@@ -224,7 +225,8 @@ router.beforeEach(async (to,from,next)=> {
                 }
 
             }else {
-                return next({path: `/account/login?redirect=${to.path}`,replace:true})
+                //return next({path: `/account/login?redirect=${to.path}`,replace:true})
+                return next({path: `/expert/login?redirect=${to.path}`,replace:true})
             }
 
         }

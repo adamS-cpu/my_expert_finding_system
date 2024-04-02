@@ -3,7 +3,7 @@
     <template #header>
       研究兴趣分布对比
     </template>
-    <div id="mainofRadar" style="width: 600px;height:400px;"></div>
+    <div id="main" style="width: 600px;height:400px;"></div>
   </el-card>
 </template>
 
@@ -27,7 +27,7 @@ type EChartsOption = echarts.ComposeOption<
   TitleComponentOption | LegendComponentOption | RadarSeriesOption
 >;
 onMounted(()=>{
-  var chartDom = document.getElementById('mainofRadar')!;
+  var chartDom = document.getElementById('main')!;
   var myChart = echarts.init(chartDom);
   var option: EChartsOption;
 
@@ -41,10 +41,10 @@ onMounted(()=>{
     radar: {
       // shape: 'circle',
       indicator: [
-        { name: '深度学习', max: 6500 },
-        { name: '人工智能', max: 16000 },
+        { name: '贝叶斯分类', max: 6500 },
+        { name: '多目标优化', max: 16000 },
         { name: '复杂性科学与人工智能理论', max: 30000 },
-        { name: '数据挖掘', max: 38000 },
+        { name: '隐私保护', max: 38000 },
         { name: '机器学习', max: 52000 }
       ]
     },
@@ -54,11 +54,11 @@ onMounted(()=>{
         type: 'radar',
         data: [
           {
-            value: [4200, 10000, 20000, 35000, 50000, 18000],
+            value: [4200, 14000, 28000, 18000, 50000, 21000],
             name: '我'
           },
           {
-            value: [5000, 14000, 28000, 26000, 42000, 21000],
+            value: [5900, 10000, 16000, 24000, 40000, 18000],
             name: '高尉'
           }
         ]

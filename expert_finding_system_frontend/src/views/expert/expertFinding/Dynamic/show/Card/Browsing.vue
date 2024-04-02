@@ -30,7 +30,7 @@ onMounted(()=>{
       </div>
       <div class="column">
         <p style="font-size: 16px;">王磊</p>
-        <p style="font-size: 12px;">Soochow University</p>
+        <p style="font-size: 12px;">东南大学</p>
       </div>
       <div class="column is-one-third">
         <el-button type="primary" round>发消息</el-button>
@@ -49,7 +49,7 @@ onMounted(()=>{
       </div>
       <div class="column">
         <p style="font-size: 16px;">孙建</p>
-        <p style="font-size: 12px;">Tsinghua University</p>
+        <p style="font-size: 12px;">清华大学</p>
       </div>
       <div class="column is-one-third">
         <el-button type="primary" round>发消息</el-button>

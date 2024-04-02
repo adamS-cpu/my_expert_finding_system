@@ -29,8 +29,8 @@ onMounted(()=>{
               <div class="avatar">李</div>
             </div>
             <div class="column">
-              <p style="font-size: 16px;">李伟</p>
-              <p style="font-size: 12px;">Soochow University</p>
+              <p style="font-size: 16px;">李中伟</p>
+              <p style="font-size: 12px;">南京理工大学</p>
             </div>
             <div class="column is-one-third">
               <el-button type="warning" round>关注</el-button>
@@ -46,8 +46,8 @@ onMounted(()=>{
         <div class="avatar">张</div>
       </div>
       <div class="column">
-        <p style="font-size: 16px;">张力</p>
-        <p style="font-size: 12px;">Soochow University</p>
+        <p style="font-size: 16px;">张顺力</p>
+        <p style="font-size: 12px;">南京大学</p>
       </div>
       <div class="column is-one-third">
         <el-button type="warning" round>关注</el-button>

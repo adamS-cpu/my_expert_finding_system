@@ -152,11 +152,11 @@
       {
         id: 1,
         avatar: 'https://example.com/avatar1.jpg',
-        name: '周志华',
-        timestamp: '2 hours ago',
-        title: 'Top 10 algorithms in data mining',
-        authors: '周志华',
-        abstract: 'This paper presents the top 10 data mining algorithms identified by the IEEE International Conference on Data Mining (ICDM) in December 2006: C4.5, k-Means, SVM, Apriori, EM, PageRank, AdaBoost, kNN, Naive Bayes, and CART. These top 10 algorithms are among the most influential data mining algorithms in the research community. With each algorithm, we provide a description of the algorithm, discuss the impact of the algorithm, and review current and further research on the algorithm.These 10 algorithms cover classification, clustering, statistical learning, association analysis, and link mining, which are all among the most important topics in data mining research and development.'
+        name: '陈松灿',
+        timestamp: '3 hours ago',
+        title: 'Face recognition from a single image per person: A survey',
+        authors: 'Xiaoyang Tan, Songcan Chen, Zhi-Hua Zhou, Fuyan Zhang',
+        abstract: 'One of the main challenges faced by the current face recognition techniques lies in the difficulties of collecting samples. Fewer samples per person mean less laborious effort for collecting them, lower cost for storing and processing them. Unfortunately, many reported face recognition techniques rely heavily on the size and representative of training set, and most of them will suffer serious performance drop or even fail to work if only one training sample per person is available to the systems. This situation is called "one sample per person" problem: given a stored database of faces, the goal is to identify a person from the database later in time in any different and unpredictable poses, lighting, etc. from just one image. Such a task is very challenging for most current algorithms due to the extremely limited representative of training sample. Numerous techniques have been developed to attack this problem, and the purpose of this paper is to categorize and evaluate these algorithms. The prominent algorithms are described and critically analyzed. Relevant issues such as data collection, the influence of the small sample size, and system evaluation are discussed, and several promising directions for future research are also proposed in this paper.'
       },
       {
         id: 2,
@@ -164,7 +164,7 @@
         name: '高尉',
         timestamp: '1 day ago',
         title: 'On the consistency of multi-label learning',
-        authors: '高尉',
+        authors: 'Wei Gao, Zhi-Hua Zhou',
         abstract: 'Multi-label learning has attracted much attention during the past few years. Many multi-label approaches have been developed, mostly working with surrogate loss functions because multi-label loss functions are usually difficult to optimize directly owing to their non-convexity and discontinuity. These approaches are effective empirically, however, little effort has been devoted to the understanding of their consistency, i.e., the convergence of the risk of learned functions to the Bayes risk. In this paper, we present a theoretical analysis on this important issue. We first prove a necessary and sufficient condition for the consistency of multi-label learning based on surrogate loss functions. Then, we study the consistency of two well-known multi-label loss functions, i.e., ranking loss and hamming loss. For ranking loss, our results disclose that, surprisingly, none of convex surrogate loss is consistent; we present the partial ranking loss, with which some surrogate losses are proven to be consistent. We also discuss on the consistency of univariate surrogate losses. For hamming loss, we show that two multi-label learning methods, i.e., one-vs-all and pairwise comparison, which can be regarded as direct extensions from multi-class learning, are inconsistent in general cases yet consistent under the dominating setting, and similar results also hold for some recent multi-label approaches that are variations of one-vs-all. In addition, we discuss on the consistency of learning approaches that address multi-label learning by decomposing into a set of binary classification problems.'
       },
       {

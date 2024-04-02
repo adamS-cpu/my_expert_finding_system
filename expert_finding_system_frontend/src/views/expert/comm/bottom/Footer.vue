@@ -4,7 +4,7 @@
 
 <template>
   <div class="expert-footer footer-store">
-    <p> <a href="baidu.com"> 联系我们</a> ©2023 <a href="baidu.com">hzy.cn</a></p>
+    <p> <a href="baidu.com"> 联系我们</a> ©2023 <a href="baidu.com"></a></p>
     <a href="baudu.com"> 了解更多 </a>
   </div>
 </template>

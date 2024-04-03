@@ -32,11 +32,12 @@ const activeType = ref('论文');
 const types = ['论文', '著作', '项目'];
 
 const papers = reactive([
-  { authors: 'Ling Huang, Ye Zhu, Yuefang Gao*, Tuo Liu, Chao Chang, Caixing Liu, Yong Tang*, Chang-Dong Wang', 
-  title: 'Hybrid-Order Anomaly Detection on Attributed Networks', 
-  journal: 'IEEE Transactions on Knowledge and Data Engineering', 
-  year: 'Dec. 2023' },
-  { authors: 'Binjie09', title: 'AI Development with Vue', journal: 'Vue Publications', year: '2022' },
+  { authors: 'Xindong Wu, Vipin Kumar, J Ross Quinlan, Joydeep Ghosh, Qiang Yang, Hiroshi Motoda, Geoffrey J McLachlan, Angus Ng, Bing Liu, S Yu Philip, Zhi-Hua Zhou, Michael Steinbach, David J Hand, Dan Steinberg', 
+  title: 'Top 10 algorithms in data mining', 
+  journal: 'Knowledge and information systems', 
+  year: '2008/1' },
+  { authors: 'Fei Tony Liu, Kai Ming Ting, Zhi-Hua Zhou', title: 'Isolation forest', journal: 'ICDM', year: '2008/12/15' },
+  { authors: 'Zhi-Hua Zhou', title: 'Ensemble Methods: Foundations and Algorithms', journal: 'Chapman & Hall/CRC Press', year: '2012/6/6' },
 ]);
 
 const books = reactive([

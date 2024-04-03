@@ -16,7 +16,7 @@ import academicNetwork from "@/views/expert/Information/InformationContent/acade
 
 const user = ref({
   avatar: "@/assets/expert/image/example-user-icon.png",
-  name: "张三",
+  name: "周志华",
   bio: "数据挖掘领域的学者",
 });
 

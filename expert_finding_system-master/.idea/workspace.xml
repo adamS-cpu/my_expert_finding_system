@@ -6,13 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="09a44c53-9256-4ca4-b0ff-27f171644eb1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/assets/les-miserables.json" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/assets/les-miserables.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/InformationContent/achievementExhibition.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/InformationContent/achievementExhibition.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/InformationContent/personalInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/InformationContent/personalInfo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/InformationHead/MyIntroduction.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/InformationHead/MyIntroduction.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/Introduction.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/Information/Introduction.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/comm/search/Search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/comm/search/Search.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/index/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/MyMessage/Contact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/MyMessage/Contact.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/MyMessage/Message.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/MyMessage/Message.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/MyMessage/RecommendedContact.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/MyMessage/RecommendedContact.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/collaborateAnalyzing/analyzingHeader/AnalyzingContent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/collaborateAnalyzing/analyzingHeader/AnalyzingContent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/index/ScholarDetails.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/index/ScholarDetails.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/index/frontpage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/index/frontpage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/personalInformation/registerSetting.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../expert_finding_system_frontend/src/views/expert/personalInformation/registerSetting.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +202,8 @@
       <workItem from="1711884675018" duration="35000" />
       <workItem from="1711884723856" duration="60000" />
       <workItem from="1711884936562" duration="1986000" />
-      <workItem from="1711890173504" duration="1804000" />
+      <workItem from="1711890173504" duration="2424000" />
+      <workItem from="1712131144042" duration="626000" />
     </task>
     <servers />
   </component>

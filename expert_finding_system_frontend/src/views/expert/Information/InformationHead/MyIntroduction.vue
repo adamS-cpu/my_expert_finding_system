@@ -10,13 +10,13 @@
       <img src= "@/assets/expert/image/example-user-icon.png" style="border: 1px solid lightgray; border-radius: 10px;" alt="user-icon" />
       <div class="userInfo">
         <div class="userName">
-          <h3>张三</h3>
+          <h3>周志华</h3>
         </div>
         <div class="user-organization">
-          <i class="el-icon-school"> </i> 苏州大学
+          <i class="el-icon-school"> </i> 南京大学
         </div>
         <div class="userAbstract">
-          数据挖掘 &emsp; 推荐系统
+          机器学习 &emsp; 人工智能
         </div>
       </div>
     </div>

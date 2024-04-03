@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-tree :data="treeData" :props="treeProps" @node-click="handleNodeClick"></el-tree>
+    <el-tree :data="treeData" :props="treeProps" @node-click="handleNodeClick" class="tree"></el-tree>
   </div>
 </template>
 
@@ -52,5 +52,19 @@
 </script>
 
 <style scoped>
+.tree {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 10px;
+  height: 1000px;
+}
 
+.el-tree-node__content {
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.el-tree-node__content:hover {
+  background-color: #f0f0f0;
+}
 </style>

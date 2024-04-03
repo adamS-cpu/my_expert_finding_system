@@ -26,7 +26,7 @@
         <el-button type="primary" plain>添加好友</el-button>
       </div>
       <div class="button-item">
-        <el-button type="info" plain>合作分析</el-button>
+        <el-button type="info" plain @click="goToAnalyzing">合作分析</el-button>
       </div>
     </div>
   </div>
@@ -139,6 +139,7 @@
 <script setup>
 import { ref,onMounted } from 'vue';
 import { useRoute } from 'vue-router';
+import { useRouter } from 'vue-router';
 import { useScholarsStore } from '@/store/scholarsStore';
 import TopHeader from "@/views/expert/comm/header/TopHeader.vue";
 import Footer from "@/views/expert/comm/bottom/Footer.vue";
@@ -192,7 +193,7 @@ const projects = reactive([
   { title: '基于教育大数据的精准教学评估与学习行为预测方法研究', duration: '2019.01-2022.12', leader: '汤庸' },
   { title: '智能交通系统优化设计', duration: '2020.05-2023.08', leader: '张三' },
 ]);
-
+const router = useRouter();
 defineExpose({user});
 
 onMounted(() => {
@@ -201,6 +202,13 @@ onMounted(() => {
     // 查找对应的学者信息
     scholar.value = scholarsStore.scholars.find(s => s.id === scholarId) || {};
 });
+// 定义跳转函数
+function goToAnalyzing() {
+  // 使用 push 方法导航到新 URL
+  router.push('/expert/analyzing');
+  // router.push({ path: '/expert/analyzing'});
+}
+
 </script>
 
 <style scoped>

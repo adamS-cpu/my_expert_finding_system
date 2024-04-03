@@ -1,13 +1,40 @@
 <script setup lang="ts">
   import Search from "@/views/expert/comm/search/Search.vue";
   import RelationSchema from "@/views/expert/collaborateAnalyzing/analyzingHeader/RelationSchema.vue";
+  import registerSetting from "@/views/expert/personalInformation/registerSetting.vue";
   import graph from '@/assets/les-miserables.json';
   import { useRouter } from 'vue-router';
+  import { ref, computed } from 'vue';
+  import { userStore } from '@/store/userStore';
   const router = useRouter(); // 使用 useRouter 获取路由实例
+  const userStores = userStore();
+  const dialogVisible = ref(false);
+  // 使用computed属性来控制弹窗的显示
+const isFirstLogin = computed(() => userStores.isFirstLogin);
+
+// 在页面加载时检查是否应该显示设置弹窗
+if (isFirstLogin.value) {
+  dialogVisible.value = true;
+}
+
+function handleClose() {
+  // 这里处理弹窗关闭逻辑，例如更新用户状态
+  userStores.completeFirstLogin();
+  dialogVisible.value = false;
+}
 </script>
 
 <template>
   <!--中间内容 开始-->
+  <el-dialog
+    title="完善个人信息"
+    v-model="dialogVisible"
+    :before-close="handleClose"
+    width="60%"
+    center
+  >
+    <registerSetting @close-dialog="handleClose" />
+  </el-dialog>
   <div class="expert-nav">
     <el-card  :body-style= "{ padding:  '0px'}" class="outer-card">
       <!-- <div class="node-item" >当前用户：MlleBaptistine</div> -->
@@ -81,6 +108,10 @@ export default {
         1: '机器学习',
         2: '数据科学',
         3: '数据挖掘',
+        4: '计算机视觉',
+        5: '人工智能',
+        6: '推荐系统',
+        7: '深度学习',
         // 添加更多映射...
       },
     };

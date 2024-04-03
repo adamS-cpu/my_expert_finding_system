@@ -14,7 +14,7 @@ import Network from "@/views/expert/collaborateAnalyzing/analyzingHeader/Network
 
 <template>
   <section>
-    <el-card>
+    <el-card class="left-space">
       <template #header>
         <el-icon><location/></el-icon> 研究内容分析
       </template>
@@ -51,5 +51,7 @@ import Network from "@/views/expert/collaborateAnalyzing/analyzingHeader/Network
 
 
 <style scoped>
+.cards {
 
+}
 </style>

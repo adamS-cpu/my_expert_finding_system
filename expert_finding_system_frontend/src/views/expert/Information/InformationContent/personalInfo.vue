@@ -18,13 +18,13 @@
 <script lang="ts" setup>
 import { reactive } from "vue";
 const teacher = reactive({
-    name: '张三',
-    university: '苏州大学',
-    title: '创始人、学者网\n二级教授，国务院政府特殊津贴专家\n教育部新世纪优秀人才，广东特支计划教学名师',
+    name: '周志华',
+    university: '南京大学',
+    title: '教授',
     research: '数据智能与社交网络',
-    education: '武汉大学学士和硕士，中国科学技术大学博士',
-    awards: '丁颖科技奖、宝钢教育奖等多个奖项',
-    tags: ['计算机科学', '人工智能', '数据分析']
+    education: '南京大学学士，硕士和博士',
+    awards: '获得国家自然科学二等奖两项 （2013，2020）、教育部自然科学一等奖 三项（2005，2011，2019)',
+    tags: ["数据挖掘","人工智能","机器学习"]
 });
 
 </script>

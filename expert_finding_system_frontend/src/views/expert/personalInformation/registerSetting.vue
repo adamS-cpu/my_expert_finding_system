@@ -1,49 +1,7 @@
 <template>
-  <el-dialog
-      title="校验您的成果信息"
-      v-model="dialogVisible"
-      width="60%"
-      :before-close="handleClose"
-  >
-    <el-card class="table-box">
-      <el-table :data="tableData" style="width: 100%">
-        <el-table-column type="expand">
-          <template #default="props">
-            <el-form label-position="left" inline class="demo-table-expand">
-              <el-form-item label="标题">
-                <span>{{ props.row.title }}</span>
-              </el-form-item>
-              <el-form-item label="摘要">
-                <span>{{ props.row.abstract }}</span>
-              </el-form-item>
-              <el-form-item label="研究领域">
-                <span>{{ props.row.fields }}</span>
-              </el-form-item>
-              <el-form-item label="作者">
-                <span>{{ props.row.authors }}</span>
-              </el-form-item>
-              <el-form-item label="会议/期刊">
-                <span>{{ props.row.venue }}</span>
-              </el-form-item>
-              <el-form-item label="发表时间">
-                <span>{{ props.row.public_time }}</span>
-              </el-form-item>
-            </el-form>
-          </template>
-        </el-table-column>
-      <el-table-column label="论文标题" prop="title"> </el-table-column>
-      <el-table-column label="作者" prop="authors"> </el-table-column>
-      <el-table-column label="发表时间" prop="public_time"> </el-table-column>
-      </el-table>
-    </el-card>
-    <template #footer>
-    <span class="dialog-footer">
-      <el-button @click="dialogVisible = false">取 消</el-button>
-      <el-button type="primary" @click="dialogVisible = false">确 定</el-button>
-    </span>
-    </template>
-  </el-dialog>
-  <div class="my_container">
+  <!-- <TopHeader/> -->
+
+  <!-- <div class="my_container"> -->
     <div class="box">
       <div class="columns">
         <div class ="column is-one-quarter">
@@ -220,13 +178,18 @@
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 
 </template>
 
 <script>
 import {Location} from "@element-plus/icons-vue";
-
+import TopHeader from "@/views/expert/comm/header/TopHeader.vue";
+import Footer from "@/views/expert/comm/bottom/Footer.vue";
+import { userStore } from '@/store/userStore';
+import { defineEmits } from 'vue';
+// 定义 emit 函数用来发出事件
+const emit = defineEmits(['close-dialog']);
 export default {
   components: {Location},
   data() {
@@ -382,6 +345,9 @@ export default {
       if (this.active_step-- < 0) this.active_step = 0
     },
     onComplete(){
+      // userStore.completeSettings();
+      // emit('close-dialog');
+      this.$emit('close-dialog');
       this.$router.push('/index');
     },
     addTag(){
@@ -427,11 +393,19 @@ export default {
 </script>
 
 <style scoped>
+
 .my_container{
-  width: 45%;
+  /* width: 45%;
   align-items: center;
-  height: 60%;
+  height: 60%; */
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  height: 100vh; /* 使容器高度填满视口高度 */
+  width: 100vw; /* 使容器宽度填满视口宽度 */
+  
 }
+
 .card-header {
   display: flex;
   justify-content: space-between;
@@ -448,6 +422,7 @@ export default {
 
 .box-card {
   width: 500px;
+  
 }
 .table-box{
   width: 95%;
@@ -473,6 +448,34 @@ export default {
   margin-right: 0;
   margin-bottom: 0;
   width: 50%;
+}
+
+
+.my_container {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  height: 100vh; /* 使容器高度填满视口高度 */
+  width: 100vw; /* 使容器宽度填满视口宽度 */
+}
+
+.box {
+  display: flex;
+  flex-direction: column; /* 垂直布局 */
+  align-items: center; /* 内容居中 */
+  width: 100%;
+  max-width: 1200px; /* 最大宽度，根据需要调整 */
+}
+
+.columns {
+  width: 100%; /* 列宽度占满容器 */
+  display: flex;
+  justify-content: space-between; /* 列之间的间距 */
+}
+
+.box-card {
+  flex: 1; /* 卡片占满剩余空间 */
+  margin: 10px;
 }
 
 </style>

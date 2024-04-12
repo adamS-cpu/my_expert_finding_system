@@ -27,6 +27,15 @@ export const staticRouter = [
                 component: ()=> import('@/views/expert/personalInformation/registerSetting.vue')
             },
             {
+                path:'team',
+                name:'Team',
+                meta: {
+                    title: '团队信息',
+                },
+                component: ()=> import('@/views/expert/Team/TeamInformation.vue'),
+
+            },
+            {
                 path: 'dynamic',
                 name: 'Dynamic',
                 meta: {

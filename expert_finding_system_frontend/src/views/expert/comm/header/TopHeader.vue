@@ -43,6 +43,10 @@
             <router-link to="/expert/myInfo">我的主页</router-link>
           </li>
 
+          <li class="expert-nav-item" :class="{'expert-active': isActive('/expert/team')}">
+            <router-link to="/expert/team">我的团队</router-link>
+          </li>
+
           <li class="expert-nav-item" :class="{'expert-active': isActive('/expert/message')}">
             <router-link to="/expert/message">消息中心</router-link>
           </li>
@@ -184,7 +188,7 @@
   top: auto;
   bottom: 0;
   position: absolute;
-  left: 1050px;
+  left: 1400px;
   height: 5px;
   background-color: #5fe878;
   transition: all .2s;

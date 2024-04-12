@@ -1,0 +1,348 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "张三",
+      "symbolSize": 45,
+      "x": -300,
+      "y": 350,
+      "value": 28.685715,
+      "category": 0
+    },
+    {
+      "id": "1",
+      "name": "李四",
+      "symbolSize": 10,
+      "x": -418.08344,
+      "y": 446.8853,
+      "value": 4,
+      "category": 1
+    },
+    {
+      "id": "2",
+      "name": "MlleBaptistine",
+      "symbolSize": 18,
+      "x": -212.76357,
+      "y": 245.29176,
+      "value": 9.485714,
+      "category": 1
+    },
+    {
+      "id": "3",
+      "name": "MmeMagloire",
+      "symbolSize": 20,
+      "x": -242.82404,
+      "y": 235.26283,
+      "value": 9.485714,
+      "category": 1
+    },
+    {
+      "id": "4",
+      "name": "CountessDeLo",
+      "symbolSize": 5,
+      "x": -379.30386,
+      "y": 429.06424,
+      "value": 4,
+      "category": 1
+    },
+    {
+      "id": "5",
+      "name": "Geborand",
+      "symbolSize": 15,
+      "x": -417.26337,
+      "y": 406.03506,
+      "value": 4,
+      "category": 1
+    },
+    {
+      "id": "6",
+      "name": "Champtercier",
+      "symbolSize": 3.33333,
+      "x": -332.6012,
+      "y": 485.16974,
+      "value": 4,
+      "category": 1
+    },
+    {
+      "id": "7",
+      "name": "Cravatte",
+      "symbolSize": 7,
+      "x": -382.69568,
+      "y": 475.09113,
+      "value": 4,
+      "category": 1
+    },
+    {
+      "id": "8",
+      "name": "Count",
+      "symbolSize": 6,
+      "x": -320.384,
+      "y": 387.17325,
+      "value": 4,
+      "category": 1
+    },
+    {
+      "id": "9",
+      "name": "OldMan",
+      "symbolSize": 8,
+      "x": -344.39832,
+      "y": 451.16772,
+      "value": 4,
+      "category": 1
+    },
+    {
+      "id": "10",
+      "name": "Smith J.",
+      "symbolSize": 45,
+      "x": -500,
+      "y": 320,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "11",
+      "name": "Johnson A.",
+      "symbolSize": 10,
+      "x": 500,
+      "y": 400,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "12",
+      "name": "Williams L.",
+      "symbolSize": 50,
+      "x": -800,
+      "y": 600,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "13",
+      "name": "Brown C.",
+      "symbolSize": 55,
+      "x": -600,
+      "y": 500,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "14",
+      "name": "Davis E.",
+      "symbolSize": 60,
+      "x": -400,
+      "y": 100,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "15",
+      "name": "Miller F.",
+      "symbolSize": 15,
+      "x": 0,
+      "y": 1200,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "16",
+      "name": "Harris R.",
+      "symbolSize": 45,
+      "x": -500,
+      "y": 320,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "17",
+      "name": "Clark B.",
+      "symbolSize": 20,
+      "x": -500,
+      "y": 400,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "18",
+      "name": "Martinez P.",
+      "symbolSize": 50,
+      "x": -800,
+      "y": 600,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "19",
+      "name": "Gonzalez S.",
+      "symbolSize": 55,
+      "x": -600,
+      "y": 500,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "20",
+      "name": "Rodriguez T.",
+      "symbolSize": 60,
+      "x": -400,
+      "y": 100,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "21",
+      "name": "Lopez Q.",
+      "symbolSize": 15,
+      "x": 0,
+      "y": 1200,
+      "value": 4,
+      "category": 2
+    },
+    {
+      "id": "22",
+      "name": "Gomez W.",
+      "symbolSize": 50,
+      "x": 200,
+      "y": 800,
+      "value": 4,
+      "category": 3
+    },
+    {
+      "id": "23",
+      "name": "Perez X.",
+      "symbolSize": 30,
+      "x": -300,
+      "y": 900,
+      "value": 4,
+      "category": 3
+    },
+    {
+      "id": "24",
+      "name": "Torres Y.",
+      "symbolSize": 40,
+      "x": 100,
+      "y": 1100,
+      "value": 4,
+      "category": 3
+    }
+
+
+
+  ],
+  "links": [
+    {
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "source": "4",
+      "target": "0"
+    },
+    {
+      "source": "5",
+      "target": "0"
+    },
+    {
+      "source": "6",
+      "target": "0"
+    },
+    {
+      "source": "7",
+      "target": "0"
+    },
+    {
+      "source": "8",
+      "target": "0"
+    },
+    {
+      "source": "9",
+      "target": "0"
+    },
+    {
+      "source": "10",
+      "target": "0"
+    },
+    {
+      "source": "11",
+      "target": "0"
+    },
+    {
+      "source": "12",
+      "target": "0"
+    },
+    {
+      "source": "13",
+      "target": "0"
+    },
+    {
+      "source": "14",
+      "target": "0"
+    },
+    {
+      "source": "15",
+      "target": "0"
+    },
+    {
+      "source": "16",
+      "target": "0"
+    },
+    {
+      "source": "17",
+      "target": "0"
+    },
+    {
+      "source": "18",
+      "target": "0"
+    },
+    {
+      "source": "19",
+      "target": "0"
+    },
+    {
+      "source": "20",
+      "target": "0"
+    },
+    {
+      "source": "21",
+      "target": "0"
+    },
+    {
+      "source": "22",
+      "target": "0"
+    },
+    {
+      "source": "23",
+      "target": "0"
+    },
+    {
+      "source": "24",
+      "target": "0"
+    }
+
+
+
+
+  ],
+  "categories": [
+    {
+      "name":"当前用户"
+    },
+    {
+      "name": "核心成员"
+    },
+    {
+      "name": "研究人员"
+    },
+    {
+      "name":"创始人"
+    }
+  ]
+}

@@ -5,8 +5,8 @@ import { ref } from "vue";
 import TeamIntroduction from "@/views/expert/Team/TeamHead/TeamIntroduction.vue";
 import teamRelation from "@/views/expert/Team/TeamContent/TeamRelation.vue";
 import teamInfo from "@/views/expert/Team/TeamContent/TeamInfo.vue";
-import achievementExhibition from "@/views/expert/Information/InformationContent/achievementExhibition.vue";
-import TeamRelation from "@/views/expert/Team/TeamContent/TeamRelation.vue";
+import TeamAchievement from "@/views/expert/Team/TeamContent/TeamAchievement.vue";
+
 
 
 const user = ref({
@@ -48,7 +48,7 @@ defineExpose({user});
       <template #header>
         <el-icon><DataAnalysis /></el-icon> 团队成果
       </template>
-      <achievementExhibition/>
+      <TeamAchievement/>
     </el-card>
   </section>
 

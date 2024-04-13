@@ -5,7 +5,7 @@
 <script setup>
 import { onMounted, ref } from 'vue';
 import * as echarts from 'echarts';
-import socialRelationDataset from '@/assets/expert/socialRelationDataset/teamRelation.json';
+import socialRelationDataset from '@/assets/expert/teamInfo/teamRelation.json';
 
 const chartDiv = ref(null);
 

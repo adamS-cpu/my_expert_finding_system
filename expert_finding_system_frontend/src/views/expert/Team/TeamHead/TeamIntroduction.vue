@@ -35,15 +35,13 @@
     <div class="columns">
       <div class="column is-10">
         <div class="columns">
-          <div class="column is-narrow">
-            <img src= "@/assets/expert/image/gdmec_1708307113748.jpg" style="border: 1px solid lightgray; border-radius: 10px;" alt="user-icon" />
+          <div class="logo">
+            <img src= "@/assets/expert/image/LamdaLogo.png" style="border: 1px solid lightgray; border-radius: 10px;" alt="user-icon" />
           </div>
           <div class="column">
-            <p class="title is-8">图数据挖掘与智能教育研究组</p>
+            <p class="title">Learning And Mining from DatA</p>
             <p> </p>
-            <p class="subtitle">
-              www.expertFindingSystem.com/team/gdmec
-            </p>
+            <a href="https://www.lamda.nju.edu.cn/">https://www.lamda.nju.edu.cn/</a>
           </div>
         </div>
       </div>
@@ -62,6 +60,14 @@
 </template>
 
 <style scoped>
+.logo{
+  display: flex;
+  align-content: center;
+  text-align: center;
+  widows: 200px;
+  height: 200px;
+}
+
 .function-button {
   display: flex;
   align-items: center;

@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "0",
-      "name": "张三",
+      "name": "周志华",
       "symbolSize": 45,
       "x": -300,
       "y": 350,
@@ -11,7 +11,7 @@
     },
     {
       "id": "1",
-      "name": "李四",
+      "name": "高尉",
       "symbolSize": 10,
       "x": -418.08344,
       "y": 446.8853,
@@ -20,7 +20,7 @@
     },
     {
       "id": "2",
-      "name": "MlleBaptistine",
+      "name": "姜远",
       "symbolSize": 18,
       "x": -212.76357,
       "y": 245.29176,
@@ -29,7 +29,7 @@
     },
     {
       "id": "3",
-      "name": "MmeMagloire",
+      "name": "黎铭",
       "symbolSize": 20,
       "x": -242.82404,
       "y": 235.26283,
@@ -38,7 +38,7 @@
     },
     {
       "id": "4",
-      "name": "CountessDeLo",
+      "name": "李宇峰",
       "symbolSize": 5,
       "x": -379.30386,
       "y": 429.06424,
@@ -47,7 +47,7 @@
     },
     {
       "id": "5",
-      "name": "Geborand",
+      "name": "钱超",
       "symbolSize": 15,
       "x": -417.26337,
       "y": 406.03506,
@@ -56,7 +56,7 @@
     },
     {
       "id": "6",
-      "name": "Champtercier",
+      "name": "Kai Ming Ting",
       "symbolSize": 3.33333,
       "x": -332.6012,
       "y": 485.16974,
@@ -65,7 +65,7 @@
     },
     {
       "id": "7",
-      "name": "Cravatte",
+      "name": "王天佐",
       "symbolSize": 7,
       "x": -382.69568,
       "y": 475.09113,
@@ -74,7 +74,7 @@
     },
     {
       "id": "8",
-      "name": "Count",
+      "name": "王魏",
       "symbolSize": 6,
       "x": -320.384,
       "y": 387.17325,
@@ -83,7 +83,7 @@
     },
     {
       "id": "9",
-      "name": "OldMan",
+      "name": "吴建鑫",
       "symbolSize": 8,
       "x": -344.39832,
       "y": 451.16772,
@@ -92,16 +92,16 @@
     },
     {
       "id": "10",
-      "name": "Smith J.",
+      "name": "叶翰嘉",
       "symbolSize": 45,
       "x": -500,
       "y": 320,
       "value": 4,
-      "category": 2
+      "category": 1
     },
     {
       "id": "11",
-      "name": "Johnson A.",
+      "name": "钱梦璋",
       "symbolSize": 10,
       "x": 500,
       "y": 400,
@@ -110,7 +110,7 @@
     },
     {
       "id": "12",
-      "name": "Williams L.",
+      "name": "郭峻杞",
       "symbolSize": 50,
       "x": -800,
       "y": 600,
@@ -119,7 +119,7 @@
     },
     {
       "id": "13",
-      "name": "Brown C.",
+      "name": "许璠",
       "symbolSize": 55,
       "x": -600,
       "y": 500,
@@ -128,7 +128,7 @@
     },
     {
       "id": "14",
-      "name": "Davis E.",
+      "name": "谭志豪",
       "symbolSize": 60,
       "x": -400,
       "y": 100,
@@ -146,7 +146,7 @@
     },
     {
       "id": "16",
-      "name": "Harris R.",
+      "name": "吴锦辉",
       "symbolSize": 45,
       "x": -500,
       "y": 320,
@@ -173,7 +173,7 @@
     },
     {
       "id": "19",
-      "name": "Gonzalez S.",
+      "name": "郑钦城",
       "symbolSize": 55,
       "x": -600,
       "y": 500,
@@ -182,7 +182,7 @@
     },
     {
       "id": "20",
-      "name": "Rodriguez T.",
+      "name": "谭志豪",
       "symbolSize": 60,
       "x": -400,
       "y": 100,
@@ -191,7 +191,7 @@
     },
     {
       "id": "21",
-      "name": "Lopez Q.",
+      "name": "何浩源",
       "symbolSize": 15,
       "x": 0,
       "y": 1200,
@@ -200,7 +200,7 @@
     },
     {
       "id": "22",
-      "name": "Gomez W.",
+      "name": "李顶为",
       "symbolSize": 50,
       "x": 200,
       "y": 800,
@@ -209,7 +209,7 @@
     },
     {
       "id": "23",
-      "name": "Perez X.",
+      "name": "刘禹",
       "symbolSize": 30,
       "x": -300,
       "y": 900,
@@ -218,14 +218,13 @@
     },
     {
       "id": "24",
-      "name": "Torres Y.",
+      "name": "杜雅莉",
       "symbolSize": 40,
       "x": 100,
       "y": 1100,
       "value": 4,
       "category": 3
     }
-
 
 
   ],
@@ -272,59 +271,59 @@
     },
     {
       "source": "11",
-      "target": "0"
+      "target": "1"
     },
     {
       "source": "12",
-      "target": "0"
+      "target": "1"
     },
     {
       "source": "13",
-      "target": "0"
+      "target": "1"
     },
     {
       "source": "14",
-      "target": "0"
+      "target": "2"
     },
     {
       "source": "15",
-      "target": "0"
+      "target": "2"
     },
     {
       "source": "16",
-      "target": "0"
+      "target": "2"
     },
     {
       "source": "17",
-      "target": "0"
+      "target": "2"
     },
     {
       "source": "18",
-      "target": "0"
+      "target": "2"
     },
     {
       "source": "19",
-      "target": "0"
+      "target": "2"
     },
     {
       "source": "20",
-      "target": "0"
+      "target": "2"
     },
     {
       "source": "21",
-      "target": "0"
+      "target": "3"
     },
     {
       "source": "22",
-      "target": "0"
+      "target": "3"
     },
     {
       "source": "23",
-      "target": "0"
+      "target": "3"
     },
     {
       "source": "24",
-      "target": "0"
+      "target": "3"
     }
 
 
@@ -333,16 +332,16 @@
   ],
   "categories": [
     {
-      "name":"当前用户"
+      "name":"负责人"
     },
     {
-      "name": "核心成员"
+      "name": "教师"
     },
     {
-      "name": "研究人员"
+      "name": "博士生"
     },
     {
-      "name":"创始人"
+      "name":"硕士生"
     }
   ]
 }

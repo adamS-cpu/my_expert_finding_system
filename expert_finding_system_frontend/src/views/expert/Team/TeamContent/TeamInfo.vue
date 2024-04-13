@@ -1,31 +1,36 @@
 <template>
-  <el-card class="teacher-card">
-    <pre>
-      {{teamIntroText}}
-    </pre>
-  </el-card>
+  <div class="lamda-introduction">
+    <el-card class="lamda-card" shadow="hover">
+      <div class="lamda-header">
+        <h2>LAMDA简介</h2>
+      </div>
+      <div class="lamda-content">
+        <p>
+          <strong>LAMDA</strong>，全称为 <strong>Learning And Mining from DatA</strong>，隶属于计算机软件新技术全国重点实验室、南京大学计算机科学与技术系和南京大学人工智能学院。LAMDA位于南京大学仙林校区计算机科学技术楼，总部在910室，负责人是周志华教授。
+        </p>
+        <p>
+          LAMDA的主要研究兴趣包括机器学习、数据挖掘、模式识别、信息检索、演化计算、神经计算，以及相关的其他领域。目前的主要研究内容包括：集成学习、半监督与主动学习、多示例与多标记学习、代价敏感和类别不平衡学习、度量学习、降维与特征选择、结构学习与聚类、演化计算的理论基础、增强可理解性、基于内容的图像检索、Web搜索与挖掘、人脸识别、计算机辅助医疗诊断、生物信息学等。
+        </p>
+        <p>
+          LAMDA的成员包括教师、工作人员、学生、访问学者和进修教师。若您希望申请国内访问学者或进修教师，请与南京大学人事处联系；如果您希望申请博士后，请与周志华教授联系；如果您希望在LAMDA攻读博士或硕士学位，请在前一年的四月左右阅读这个网页并根据要求提供必要的申请材料，请注意，所有申请者都要经过提前面试（面试程序相同，最终结果取决于您与导师的双向选择）；如果您希望在LAMDA做本科毕业论文（限南京大学本校生），请通过Email与具体的LAMDA全职教师成员联系。
+        </p>
+      </div>
+    </el-card>
+  </div>
 </template>
-<script>
-  export default {
-    data(){
-      return{
-        teamIntroText: '\tResearch Group on Graph Data Mining and Intelligent Education' +
-            '\n\t本团队创建于2021年9月。主要依托' +
-            '本研究组主要依托广东省服务计算工程技术研究开发中心、广东省数据科学工程技术研究中心、' +
-            '广州市大数据智能教育重点实验室以及华南师范大学学术社交网络与协同教育软件实验室等平台组建\n' +
-            '    主要从事如下方向的研究工作：\n\t'+
-            '方向1：图机器学习基础理论及方法，包括各种图机器学习范式、节点/图层次的表示学习、分类、聚类、链接预测及可视化等。\n\t' +
-            '方向2：图机器学习与推荐系统、知识图谱，包括基于异质网络表示学习的推荐系统、领域知识图谱自动化构建、表示及智能应用等。\n\t' +
-            '方向3：图机器学习与智能教育应用，包括在线学习关系网络分析、学习资源推荐、学习质量评价、学习行为预测、智能问答、' +
-            '生成式教育人工智能等。\n\t' +
-            '目标：致力于高水平学术论文、教材及著作的撰写及发表、图机器学习与智能教育相关软件系统的研发及应用。\n\t' +
-            '欢迎对研究方向感兴趣、有协作和自主探索精神、有专业理论与技术基础、积极向上的研究生与本科生加入！',
-      }
-    }
-  }
+<script lang="ts" setup>
 
 </script>
-
 <style scoped>
 
+
+.lamda-card {
+  margin: auto;
+}
+
+.lamda-header {
+  background-color: #409EFF;
+  color: #FFFFFF;
+  text-align: center;
+}
 </style>
